@@ -2,7 +2,7 @@
   "providerName": "Roku Developers",
   "language": "en-US",
   "lastUpdated": "2020-03-15T02:01:00+02:00",
-  "Movies - Action": [
+  "Películas - Action": [
     {
       "longDescription": "Cuando el mundo comienza a ser invadido por una legión de muertos vivientes, Gerry Lane (Brad Pitt), un experto investigador de las Naciones Unidas, intentará evitar el fin de la civilización en una carrera contra el tiempo y el destino. La destrucción a la que se ve sometida la raza humana lo lleva a recorrer el mundo entero buscando la solución para frenar esa horrible epidemia.",
       "thumbnail": "https://img.asmedia.epimg.net/resizer/nd7qkugJ00csxYQZkRdEO376CD8=/360x203/cloudfront-eu-central-1.images.arcpublishing.com/diarioas/FJU7EFSIFVCUZGKBOCYTZPK4HU.jpg",
@@ -18,6 +18,50 @@
           {
             "videoType": "HLS",
             "url": "https://server26.peliscdn.online/newhls/ff7914a3a0c28f49be8ed294b76137bb/EP.0.2.v1.1677386777.720.m3u8",
+            "quality": "HD"
+          }
+        ],
+        "language": "en-us",
+        "dateAdded": "2020-01-15T02:39:11Z"
+      }
+    },
+    {
+      "longDescription": "Cuando el mundo comienza a ser invadido por una legión de muertos vivientes, Gerry Lane (Brad Pitt), un experto investigador de las Naciones Unidas, intentará evitar el fin de la civilización en una carrera contra el tiempo y el destino. La destrucción a la que se ve sometida la raza humana lo lleva a recorrer el mundo entero buscando la solución para frenar esa horrible epidemia.",
+      "thumbnail": "https://img.asmedia.epimg.net/resizer/nd7qkugJ00csxYQZkRdEO376CD8=/360x203/cloudfront-eu-central-1.images.arcpublishing.com/diarioas/FJU7EFSIFVCUZGKBOCYTZPK4HU.jpg",
+      "releaseDate": "2020-01-15",
+      "genres": ["movie"],
+      "tags": ["action-movie"],
+      "id": "shortform-roku-streaming-overview",
+      "shortDescription": "Cuando el mundo comienza a ser invadido por una legión de muertos vivientes, Gerry Lane (Brad Pitt), un experto investigador de las Naciones Unidas, intentará evitar el fin de la civilización en una carrera contra el tiempo y el destino. La destrucción a la que se ve sometida la raza humana lo lleva a recorrer el mundo entero buscando la solución para frenar esa horrible epidemia.",
+      "title": "Golden Plus",
+      "content": {
+        "duration": 100,
+        "videos": [
+          {
+            "videoType": "HLS",
+            "url": "https://linear-410.frequency.stream/dist/vix/410/hls/master/playlist.m3u8",
+            "quality": "HD"
+          }
+        ],
+        "language": "en-us",
+        "dateAdded": "2020-01-15T02:39:11Z"
+      }
+    },
+    {
+      "longDescription": "Cuando el mundo comienza a ser invadido por una legión de muertos vivientes, Gerry Lane (Brad Pitt), un experto investigador de las Naciones Unidas, intentará evitar el fin de la civilización en una carrera contra el tiempo y el destino. La destrucción a la que se ve sometida la raza humana lo lleva a recorrer el mundo entero buscando la solución para frenar esa horrible epidemia.",
+      "thumbnail": "https://img.asmedia.epimg.net/resizer/nd7qkugJ00csxYQZkRdEO376CD8=/360x203/cloudfront-eu-central-1.images.arcpublishing.com/diarioas/FJU7EFSIFVCUZGKBOCYTZPK4HU.jpg",
+      "releaseDate": "2020-01-15",
+      "genres": ["movie"],
+      "tags": ["action-movie"],
+      "id": "shortform-roku-streaming-overview",
+      "shortDescription": "Cuando el mundo comienza a ser invadido por una legión de muertos vivientes, Gerry Lane (Brad Pitt), un experto investigador de las Naciones Unidas, intentará evitar el fin de la civilización en una carrera contra el tiempo y el destino. La destrucción a la que se ve sometida la raza humana lo lleva a recorrer el mundo entero buscando la solución para frenar esa horrible epidemia.",
+      "title": "Golden Premier",
+      "content": {
+        "duration": 100,
+        "videos": [
+          {
+            "videoType": "HLS",
+            "url": "https://linear-411.frequency.stream/dist/vix/411/hls/master/playlist.m3u8",
             "quality": "HD"
           }
         ],
@@ -60,7 +104,7 @@
       }
     }
   ],
-  "Transmissions": [
+  "Transmisones": [
     {
       "longDescription": "Description",
       "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/0/07/Logotipo-Canal-5-M%C3%A9xico.png",
@@ -76,6 +120,50 @@
           {
             "videoType": "HLS",
             "url": "https://channel05.akamaized.net/hls/live/2033783/event01/index.m3u8",
+            "quality": "HD"
+          }
+        ],
+        "language": "en-us",
+        "dateAdded": "2020-01-15T02:39:11Z"
+      }
+    },
+    {
+      "longDescription": "Description",
+      "thumbnail": "https://i.ytimg.com/vi/S4jHI7l22ik/mqdefault.jpg",
+      "releaseDate": "2020-01-15",
+      "genres": ["tv"],
+      "tags": ["tv"],
+      "id": "shortform-roku-streaming-overview",
+      "shortDescription": "Description",
+      "title": "Canal 4 Saltillo",
+      "content": {
+        "duration": 100,
+        "videos": [
+          {
+            "videoType": "HLS",
+            "url": "https://59e88b197fb16.streamlock.net:4443/live/canal4/playlist.m3u8?PlaylistM3UCL",
+            "quality": "HD"
+          }
+        ],
+        "language": "en-us",
+        "dateAdded": "2020-01-15T02:39:11Z"
+      }
+    },
+    {
+      "longDescription": "Description",
+      "thumbnail": "https://i.ytimg.com/vi/S4jHI7l22ik/mqdefault.jpg",
+      "releaseDate": "2020-01-15",
+      "genres": ["tv"],
+      "tags": ["tv"],
+      "id": "shortform-roku-streaming-overview",
+      "shortDescription": "Description",
+      "title": "Canal 4 Saltillo",
+      "content": {
+        "duration": 100,
+        "videos": [
+          {
+            "videoType": "HLS",
+            "url": "https://59e88b197fb16.streamlock.net:4443/live/canal4/playlist.m3u8?PlaylistM3UCL",
             "quality": "HD"
           }
         ],
