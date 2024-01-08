@@ -55,6 +55,7 @@ function GetItemData(video as Object) as Object
         item.description = video.shortDescription
     end if
     item.hdPosterURL = video.thumbnail
+    item.hdBackdropURL = video.backdrop
     item.title = video.title
     item.releaseDate = video.releaseDate
     item.id = video.id

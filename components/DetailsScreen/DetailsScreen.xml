@@ -1,7 +1,9 @@
-<?xml version="1.0" encoding="utf-8" ?> 
-<!--********** Copyright 2020 Roku Corp.  All Rights Reserved. **********--> 
+<?xml version="1.0" encoding="utf-8"?>
+<!--********** Copyright 2020 Roku Corp.  All Rights
+Reserved. **********-->
 
-<component name="DetailsScreen" extends="Group" initialFocus="Buttons" xsi:noNamespaceSchemaLocation="https://devtools.web.roku.com/schema/RokuSceneGraph.xsd">
+<component name="DetailsScreen" extends="Group" initialFocus="Buttons"
+    xsi:noNamespaceSchemaLocation="https://devtools.web.roku.com/schema/RokuSceneGraph.xsd">
     <script type="text/brightscript" uri="DetailsScreen.brs" />
     <script type="text/brightscript" uri="pkg:/source/utils.brs" />
     <interface>
@@ -11,30 +13,76 @@
         <!-- Manually focus on desired item. This field must be set after setting the content field. -->
         <field id="jumpToItem" type="integer" onChange="OnJumpToItem" value="0" alwaysNotify="true" />
         <!-- tells what item is currently focused  -->
-        <field id="itemFocused" type="integer" alwaysNotify="true" />     
+        <field id="itemFocused" type="integer" alwaysNotify="true" />
         <field id="buttonSelected" type="integer" alias="buttons.itemSelected" />
     </interface>
+
+
     <children>
+
+
+        <Rectangle
+            id="background_poster"
+            width="1280"
+            height="720"
+            color="0xFF000000"
+        >
+            <Poster
+                id="backdrop"
+                width="1280"
+                loadWidth="1280"
+                height="720"
+                loadHeight="720"
+                loadDisplayMode="scaleToFit"
+            />
+            <Rectangle
+                id="blurredBackground"
+                width="1280"
+                height="720"
+                color="0x000000b7"
+                cornerRadius="[15, 15, 15, 15]" />
+            <Overhang
+                id="overhang"
+                showOptions="false"
+                showClock="false"
+                logoUri="pkg:/images/hd_overhang_logo.png"
+                translation="[0,30]"
+                layerDepth="1"
+            />
+
+        </Rectangle>
+
+
         <LayoutGroup
             translation="[1166, 154]"
             layoutDirection="horiz"
             horizAlignment="right"
             itemSpacings="[40]">
+
+            <!--0xFFFFFF00-->
+            <!--0xb30000b7-->
             <LayoutGroup
                 itemSpacings="[14, 10]"
                 layoutDirection="vert">
                 <Rectangle
-                    width="357"
-                    height="201"
+                    width="280"
+                    height="370"
                     color="0xFFFFFF00">
+
+                    <!--translation="[157,
+                    0]"-->
+                    <!--loadDisplayMode="scaleToFit"-->
                     <Poster
                         id="poster"
-                        width="357"
-                        loadWidth="357"
-                        height="201"
-                        loadHeight="201"
-                        loadDisplayMode="scaleToFit"
+                        width="280"
+                        loadWidth="280"
+                        height="370"
+                        loadHeight="370"
+                        loadDisplayMode="stretch"
+                        translation="[90,0]"
                     />
+
+
                 </Rectangle>
                 <Label
                     id="titleLabel"
@@ -50,6 +98,7 @@
                 />
             </LayoutGroup>
             <Group>
+
                 <LabelList
                     id="buttons"
                     numRows="3"
@@ -58,11 +107,11 @@
                 />
                 <LayoutGroup
                     itemSpacings="[40]"
-                    translation="[0, 208]">
+                    translation="[0, 150]">
                     <Label
                         id="descriptionLabel"
                         wrap="true"
-                        maxLines="6"
+                        maxLines="7"
                         width="593"
                     />
                     <Label
@@ -72,6 +121,9 @@
                     />
                 </LayoutGroup>
             </Group>
+
         </LayoutGroup>
+
+
     </children>
 </component>

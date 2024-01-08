@@ -16,6 +16,7 @@
             showClock="false"
             logoUri="pkg:/images/hd_overhang_logo.png"
             translation="[0,30]"
+            layerDepth="1"
         />
         <!-- LoadingIndicator should be visible only in case of waiting for content -->
         <Label

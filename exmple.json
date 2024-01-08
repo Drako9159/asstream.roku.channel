@@ -5,7 +5,7 @@
   "Películas - Action": [
     {
       "longDescription": "Cuando el mundo comienza a ser invadido por una legión de muertos vivientes, Gerry Lane (Brad Pitt), un experto investigador de las Naciones Unidas, intentará evitar el fin de la civilización en una carrera contra el tiempo y el destino. La destrucción a la que se ve sometida la raza humana lo lleva a recorrer el mundo entero buscando la solución para frenar esa horrible epidemia.",
-      "thumbnail": "https://img.asmedia.epimg.net/resizer/nd7qkugJ00csxYQZkRdEO376CD8=/360x203/cloudfront-eu-central-1.images.arcpublishing.com/diarioas/FJU7EFSIFVCUZGKBOCYTZPK4HU.jpg",
+      "thumbnail": "https://m.media-amazon.com/images/I/61lCecsrn8L._AC_UF894,1000_QL80_.jpg",
       "releaseDate": "2020-01-15",
       "genres": ["movie"],
       "tags": ["action-movie"],
@@ -23,87 +23,59 @@
         ],
         "language": "en-us",
         "dateAdded": "2020-01-15T02:39:11Z"
-      }
+      },
+      "backdrop": "https://hips.hearstapps.com/hmg-prod/images/guerra-mundial-z-2-1547195705.jpg"
     },
+
     {
-      "longDescription": "Cuando el mundo comienza a ser invadido por una legión de muertos vivientes, Gerry Lane (Brad Pitt), un experto investigador de las Naciones Unidas, intentará evitar el fin de la civilización en una carrera contra el tiempo y el destino. La destrucción a la que se ve sometida la raza humana lo lleva a recorrer el mundo entero buscando la solución para frenar esa horrible epidemia.",
-      "thumbnail": "https://img.asmedia.epimg.net/resizer/nd7qkugJ00csxYQZkRdEO376CD8=/360x203/cloudfront-eu-central-1.images.arcpublishing.com/diarioas/FJU7EFSIFVCUZGKBOCYTZPK4HU.jpg",
+      "longDescription": "El Looney Cuento de Navidad sigue las proezas del Pato Lucas, el propietario parecido a Scrooger del cuento original de Charles Dickens. Para sacar partido financiero de los compradores que acuden a su tienda en el último minuto, Lucas exige a sus empleados, incluyendo al sufrido gerente Porky, que trabajen el día de Navidad en lugar de pasar el día con sus familias. Bugs Bunny y los fantasmas de Navidad del pasado (Piolín y la Abuelita), del presente (Yosemite Sam) y del Futuro (Taz) tendrán la misión de asegurarse de que el Pato Lucas se dé cuenta de su error y permita celebrar la Navidad a sus Looney empleados",
+      "thumbnail": "https://static.wikia.nocookie.net/doblaje/images/8/84/Humduck.jpg/revision/latest?cb=20101130212553&path-prefix=es",
       "releaseDate": "2020-01-15",
       "genres": ["movie"],
       "tags": ["action-movie"],
       "id": "shortform-roku-streaming-overview",
-      "shortDescription": "Cuando el mundo comienza a ser invadido por una legión de muertos vivientes, Gerry Lane (Brad Pitt), un experto investigador de las Naciones Unidas, intentará evitar el fin de la civilización en una carrera contra el tiempo y el destino. La destrucción a la que se ve sometida la raza humana lo lleva a recorrer el mundo entero buscando la solución para frenar esa horrible epidemia.",
-      "title": "Golden Plus",
+      "shortDescription": "El Looney Cuento de Navidad sigue las proezas del Pato Lucas, el propietario parecido a Scrooger del cuento original de Charles Dickens. Para sacar partido financiero de los compradores que acuden a su tienda en el último minuto, Lucas exige a sus empleados, incluyendo al sufrido gerente Porky, que trabajen el día de Navidad en lugar de pasar el día con sus familias. Bugs Bunny y los fantasmas de Navidad del pasado (Piolín y la Abuelita), del presente (Yosemite Sam) y del Futuro (Taz) tendrán la misión de asegurarse de que el Pato Lucas se dé cuenta de su error y permita celebrar la Navidad a sus Looney empleados",
+      "title": "Lucas y el espítiru de la Navidad",
       "content": {
         "duration": 100,
         "videos": [
           {
             "videoType": "HLS",
-            "url": "https://linear-410.frequency.stream/dist/vix/410/hls/master/playlist.m3u8",
+            "url": "https://fr5jn8z0rbsqi.sw-cdnstream.com/hls2/01/02575/sr06mr1ew8ys_,n,h,x,.urlset/index-f1-v1-a1.m3u8?t=95YAY_KpjGP24eFohfm7OnFBMpsEU6xUvDzJmRfPoao&s=1704684295&e=129600&f=12876176&srv=w2r15xapcncg&i=0.4&sp=500&p1=w2r15xapcncg&p2=w2r15xapcncg&asn=13999",
             "quality": "HD"
           }
         ],
         "language": "en-us",
         "dateAdded": "2020-01-15T02:39:11Z"
-      }
+      },
+      "backdrop": "https://www.themoviedb.org/t/p/original/yLSkDaWuBHBhd1xVsEOT400hmEl.jpg"
     },
+
     {
-      "longDescription": "Cuando el mundo comienza a ser invadido por una legión de muertos vivientes, Gerry Lane (Brad Pitt), un experto investigador de las Naciones Unidas, intentará evitar el fin de la civilización en una carrera contra el tiempo y el destino. La destrucción a la que se ve sometida la raza humana lo lleva a recorrer el mundo entero buscando la solución para frenar esa horrible epidemia.",
-      "thumbnail": "https://img.asmedia.epimg.net/resizer/nd7qkugJ00csxYQZkRdEO376CD8=/360x203/cloudfront-eu-central-1.images.arcpublishing.com/diarioas/FJU7EFSIFVCUZGKBOCYTZPK4HU.jpg",
+      "longDescription": "Bryan Mills (Liam Neeson) es un agente especial jubilado. Pero cuando su hija Kim (Maggie Grace) es secuestrada en París por una organización criminal albanokosovar, tendrá que volver a la acción para intentar salvarla. La banda se dedica a una red de trata de blancas, por lo que Mills sabe que sólo dispone de unas horas para conseguir rescatarla antes de que se pierda el rastro de su hija",
+      "thumbnail": "https://pics.filmaffinity.com/Venganza-598020426-large.jpg",
       "releaseDate": "2020-01-15",
       "genres": ["movie"],
       "tags": ["action-movie"],
       "id": "shortform-roku-streaming-overview",
-      "shortDescription": "Cuando el mundo comienza a ser invadido por una legión de muertos vivientes, Gerry Lane (Brad Pitt), un experto investigador de las Naciones Unidas, intentará evitar el fin de la civilización en una carrera contra el tiempo y el destino. La destrucción a la que se ve sometida la raza humana lo lleva a recorrer el mundo entero buscando la solución para frenar esa horrible epidemia.",
-      "title": "Golden Premier",
+      "shortDescription": "Bryan Mills (Liam Neeson) es un agente especial jubilado. Pero cuando su hija Kim (Maggie Grace) es secuestrada en París por una organización criminal albanokosovar, tendrá que volver a la acción para intentar salvarla. La banda se dedica a una red de trata de blancas, por lo que Mills sabe que sólo dispone de unas horas para conseguir rescatarla antes de que se pierda el rastro de su hija",
+      "title": "Busqueda Implacable",
       "content": {
         "duration": 100,
         "videos": [
           {
             "videoType": "HLS",
-            "url": "https://linear-411.frequency.stream/dist/vix/411/hls/master/playlist.m3u8",
+            "url": "https://be4235.rcr32.ams02.cdn112.com/hls2/01/04609/doqnzxcc3cep_h/index-v1-a1.m3u8?t=nePsNqO3fovQlwtPISF6FZCbhKFq5w41J6NAKaab0aU&s=1704684989&e=43200&f=26100961&srv=12&asn=13999&sp=2000",
             "quality": "HD"
           }
         ],
         "language": "en-us",
         "dateAdded": "2020-01-15T02:39:11Z"
-      }
-    },
-    {
-      "longDescription": "Video highlighting Direct to Play and Enhanced Voice Control features",
-      "thumbnail": "https://d6hm6c1vbpfva.cloudfront.net/shortform-4be9d883d51ca3161c780d261c3e1ef480e7e56d_2/images/VoiceFeatures.jpg",
-      "releaseDate": "2020-01-17",
-      "genres": ["educational"],
-      "tags": ["feature"],
-      "id": "shortform-4be9d883d51ca3161c780d261c3e1ef480e7e56d",
-      "shortDescription": "Video highlighting Direct to Play and Enhanced Voice Control features",
-      "title": "Voice Features",
-      "content": {
-        "duration": 98,
-        "videos": [
-          {
-            "videoType": "MP4",
-            "url": "https://image.roku.com/ZHZscHItMTc2/roku-voice-demo-v4.mp4",
-            "quality": "HD"
-          }
-        ],
-        "language": "en-us",
-        "dateAdded": "2020-01-29T02:39:12Z",
-        "captions": [
-          {
-            "language": "en",
-            "captionType": "CLOSED_CAPTION",
-            "url": "https://d6hm6c1vbpfva.cloudfront.net/shortform-4be9d883d51ca3161c780d261c3e1ef480e7e56d_2/captions/VoiceFeatures_cc_eng.srt"
-          },
-          {
-            "language": "en",
-            "captionType": "CLOSED_CAPTION",
-            "url": "https://d6hm6c1vbpfva.cloudfront.net/shortform-4be9d883d51ca3161c780d261c3e1ef480e7e56d_2/captions/VoiceFeatures_cc_eng.vtt"
-          }
-        ]
-      }
+      },
+      "backdrop": "https://1.bp.blogspot.com/-mFVa9Id8JOs/VW35-cbK1gI/AAAAAAAAKK4/TDkJk5r0K90/w1200-h630-p-k-no-nu/0taken3300115.jpg"
     }
   ],
+
   "Transmisones": [
     {
       "longDescription": "Description",
@@ -125,7 +97,8 @@
         ],
         "language": "en-us",
         "dateAdded": "2020-01-15T02:39:11Z"
-      }
+      },
+      "backdrop": "https://hips.hearstapps.com/hmg-prod/images/guerra-mundial-z-2-1547195705.jpg"
     },
     {
       "longDescription": "Description",
@@ -147,29 +120,54 @@
         ],
         "language": "en-us",
         "dateAdded": "2020-01-15T02:39:11Z"
-      }
+      },
+      "backdrop": "https://hips.hearstapps.com/hmg-prod/images/guerra-mundial-z-2-1547195705.jpg"
     },
     {
       "longDescription": "Description",
-      "thumbnail": "https://i.ytimg.com/vi/S4jHI7l22ik/mqdefault.jpg",
+      "thumbnail": "https://static.wikia.nocookie.net/logopedia/images/5/51/Golden_Plus_2020.png/revision/latest/scale-to-width-down/310?cb=20210512164553&path-prefix=es",
       "releaseDate": "2020-01-15",
       "genres": ["tv"],
       "tags": ["tv"],
       "id": "shortform-roku-streaming-overview",
       "shortDescription": "Description",
-      "title": "Canal 4 Saltillo",
+      "title": "Golden Plus",
       "content": {
         "duration": 100,
         "videos": [
           {
             "videoType": "HLS",
-            "url": "https://59e88b197fb16.streamlock.net:4443/live/canal4/playlist.m3u8?PlaylistM3UCL",
+            "url": "https://linear-410.frequency.stream/dist/vix/410/hls/master/playlist.m3u8",
             "quality": "HD"
           }
         ],
         "language": "en-us",
         "dateAdded": "2020-01-15T02:39:11Z"
-      }
+      },
+      "backdrop": "https://hips.hearstapps.com/hmg-prod/images/guerra-mundial-z-2-1547195705.jpg"
+    },
+    {
+      "longDescription": "Description",
+      "thumbnail": "https://static.wikia.nocookie.net/logopedia/images/1/1e/Golden_Premier_2013.jpg/revision/latest?cb=20191216003210&path-prefix=es",
+      "releaseDate": "2020-01-15",
+      "genres": ["tv"],
+      "tags": ["tv"],
+      "id": "shortform-roku-streaming-overview",
+      "shortDescription": "Description",
+      "title": "Golden Premier",
+      "content": {
+        "duration": 100,
+        "videos": [
+          {
+            "videoType": "HLS",
+            "url": "https://linear-411.frequency.stream/dist/vix/411/hls/master/playlist.m3u8",
+            "quality": "HD"
+          }
+        ],
+        "language": "en-us",
+        "dateAdded": "2020-01-15T02:39:11Z"
+      },
+      "backdrop": "https://hips.hearstapps.com/hmg-prod/images/guerra-mundial-z-2-1547195705.jpg"
     }
   ],
   "Movies": [
@@ -193,7 +191,8 @@
         ],
         "language": "en-us",
         "dateAdded": "2020-01-29T02:39:11Z"
-      }
+      },
+      "backdrop": "https://hips.hearstapps.com/hmg-prod/images/guerra-mundial-z-2-1547195705.jpg"
     },
     {
       "longDescription": "Video that demonstrates the Roku automated channel testing software. It provides a brief overview of the technology stack, and it shows how both the Roku WebDriver and Robot Framework Library can be used for state-driven channel UI automation testing.",
@@ -215,7 +214,8 @@
         ],
         "language": "en-us",
         "dateAdded": "2020-01-29T02:39:10Z"
-      }
+      },
+      "backdrop": "https://hips.hearstapps.com/hmg-prod/images/guerra-mundial-z-2-1547195705.jpg"
     },
     {
       "longDescription": "Video demonstrating how a developer can use the Developer Dashboard's user access management feature to give team members the authority to take administrative actions, which are appropriate for their respective organizational roles",
@@ -237,7 +237,8 @@
         ],
         "language": "en-us",
         "dateAdded": "2020-01-29T02:39:11Z"
-      }
+      },
+      "backdrop": "https://hips.hearstapps.com/hmg-prod/images/guerra-mundial-z-2-1547195705.jpg"
     }
   ]
 }
