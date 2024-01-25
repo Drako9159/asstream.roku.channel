@@ -11,7 +11,7 @@ sub GetContent()
     ' request the content feed from the API
     xfer = CreateObject("roURLTransfer")
     xfer.SetCertificatesFile("common:/certs/ca-bundle.crt")
-    xfer.SetURL("https://raw.githubusercontent.com/Drako9159/asstream.roku.channel/main/exmple.json")
+    xfer.SetURL("https://asstream-api-channel.fly.dev/api/channel")
     rsp = xfer.GetToString()
     rootChildren = []
     rows = {}

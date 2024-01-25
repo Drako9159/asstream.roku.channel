@@ -6,6 +6,7 @@ function ContentListToSimpleNode(contentList as object, nodeType = "ContentNode"
         for each itemAA in contentList
             item = CreateObject("roSGNode", nodeType)
             item.SetFields(itemAA)
+            
             result.AppendChild(item)
         end for
     end if

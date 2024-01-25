@@ -8,6 +8,10 @@ sub Init()
     m.top.backgroundUri = "pkg:/images/background.webp"
     m.loadingIndicator = m.top.FindNode("loadingIndicator") ' store loadingIndicator node to m
     InitScreenStack()
+
+    ' Authenticate screen 
+    ShowAuthenticateScreen()
+    
     ShowGridScreen()
     RunContentTask() ' retrieving content
 end sub
