@@ -4,9 +4,9 @@
 ' Note that we need to import this file in MainScene.xml using relative path.
 
 sub ShowAuthenticateScreen()
-    m.GridScreen = CreateObject("roSGNode", "AuthenticateScreen")
-    m.GridScreen.ObserveField("rowItemSelected", "OnGridScreenItemSelectedAuthenticate")
-    ShowScreen(m.GridScreen) ' show GridScreen
+    m.AuthenticateScreen = CreateObject("roSGNode", "AuthenticateScreen")
+    m.AuthenticateScreen.ObserveField("rowItemSelected", "OnGridScreenItemSelectedAuthenticate")
+    ShowScreen(m.AuthenticateScreen) ' show GridScreen
 end sub
 
 sub OnGridScreenItemSelectedAuthenticate(event as Object)

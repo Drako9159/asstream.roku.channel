@@ -16,7 +16,7 @@ Reserved. **********-->
 
         <!-- Label with title and length of content -->
         <Label
-            id="titleLabel"
+            id="titleLabelAuthenticate"
             width="1020"
             translation="[130,170]"
         />

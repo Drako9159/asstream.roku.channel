@@ -9,7 +9,7 @@ sub Init()
     m.descriptionLabel = m.top.FindNode("descriptionLabel")
     m.top.ObserveField("visible", "onVisibleChange")
     ' label with item title
-    m.titleLabel = m.top.FindNode("titleLabel")
+    m.titleLabelAuthenticate = m.top.FindNode("titleLabel")
     ' observe rowItemFocused so we can know when another item of rowList will be focused
     m.rowList.ObserveField("rowItemFocused", "OnItemFocused")
 end sub
@@ -29,10 +29,10 @@ sub OnItemFocused() ' invoked when another item is focused
     ' update title label with title of focused item
     'm.titleLabel.text = item.title
 
-    m.titleLabel.text = "Hello world"
+    m.titleLabelAuthenticate.text = "Hello world"
 
     ' adding length of playback to the title if item length field was populated
     if item.length <> invalid
-        m.titleLabel.text += " | " + GetTime(item.length)
+        m.titleLabelAuthenticate.text += " | " + GetTime(item.length)
     end if
 end sub
