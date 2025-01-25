@@ -8,7 +8,7 @@
         "id": "679544c8129dd935d43146d9",
         "title": "Imagen Universal",
         "content": {
-          "dateAdded": "2024-01-01",
+          "dateAdded": "2021-01-20T00:34:52Z",
           "videos": [
             {
               "videoType": "HLS",
@@ -16,7 +16,7 @@
               "quality": "SD"
             }
           ],
-          "duration": 123,
+          "duration": 204,
           "captions": [
             {
               "url": "https://static-delivery.sr.roku.com/17058b9e-a7dc-477e-afaa-0e10d97ddb99/captions/HDCP_Error_RokuTipsandTricks_20210120T003500_cc_eng.vtt",
@@ -48,17 +48,29 @@
               "label": "English (Original)"
             }
           ]
-          
         },
         "thumbnail": "https://thedominicanchannels.net/wp-content/uploads/2013/07/imagen-universal-tv.png",
         "shortDescription": "Canal En vivo",
         "releaseDate": "2024-01-01",
         "longDescription": "Canal En vivo",
         "tags": [
-          "master"
+          "cable",
+          "content",
+          "error",
+          "fix",
+          "hdcp",
+          "hdmi",
+          "how",
+          "protected",
+          "roku",
+          "roku_101",
+          "screen",
+          "streaming",
+          "to",
+          "troubleshooting"
         ],
         "genres": [
-          "master"
+          "educational"
         ],
         "rating": {
           "rating": "NR",
