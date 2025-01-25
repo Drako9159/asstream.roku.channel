@@ -33,7 +33,7 @@ supports_input_launch=1
 #FEED_URL=https://content.jwplatform.com/feeds/6V5vHuPm.rss
 
 ' Update theme elements              
-FEED_URL=pkg:example_data.json
+FEED_URL=https://asstream-api-channel.fly.dev/api/channel
 
 #OverhangLogoUri=pkg:/images/background.webp
 #OverhangTitle=AsStream

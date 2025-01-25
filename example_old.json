@@ -1,0 +1,35 @@
+
+{
+    "providerName": "Roku Developers",
+    "lastUpdated": "2024-01-15T02:01:00+02:00",
+    "language": "es-MX",
+    "En Vivo": [
+      {
+        "longDescription": "Canal En vivo",
+        "thumbnail": "https://thedominicanchannels.net/wp-content/uploads/2013/07/imagen-universal-tv.png",
+        "releaseDate": "2024-01-01",
+        "genres": [
+          "master"
+        ],
+        "tags": [
+          "master"
+        ],
+        "id": "679544c8129dd935d43146d9",
+        "shortDescription": "Canal En vivo",
+        "title": "Imagen Universal",
+        "content": {
+          "duration": 123,
+          "videos": [
+            {
+              "videoType": "M3U8",
+              "url": "https://imagenuniversaltv.net:3771/live/iutvlive.m3u8",
+              "quality": "SD"
+            }
+          ],
+          "language": "es",
+          "dateAdded": "2024-01-01"
+        },
+        "backdrop": "https://thedominicanchannels.net/wp-content/uploads/2013/07/imagen-universal-tv.png"
+      }
+    ]
+  }
