@@ -21,7 +21,7 @@
           "duration": 123,
           "videos": [
             {
-              "videoType": "M3U8",
+              "videoType": "HLS",
               "url": "https://imagenuniversaltv.net:3771/live/iutvlive.m3u8",
               "quality": "SD"
             }
