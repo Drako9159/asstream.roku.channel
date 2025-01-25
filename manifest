@@ -14,6 +14,7 @@ mm_icon_focus_hd=pkg:/images/icon_focus_hd.webp
 mm_icon_focus_sd=pkg:/images/icon_focus_hd.webp
 mm_icon_focus_fhd=pkg:/images/icon_focus_hd.webp
 
+bs_libs_required=roku_ads_lib
 
 # Splash Screen
 splash_screen_fhd=pkg:/images/splash_hd.webp
@@ -31,7 +32,8 @@ supports_input_launch=1
 #FEED_URL=https://ovp-feeds2-886239521314.s3.amazonaws.com/roku_tips_and_tricks_clip/ovpfeed.json
 #FEED_URL=https://content.jwplatform.com/feeds/6V5vHuPm.rss
 
-' Update theme elements                                                                                 
+' Update theme elements              
+FEED_URL=pkg:example_data.json
 
 #OverhangLogoUri=pkg:/images/background.webp
 #OverhangTitle=AsStream
