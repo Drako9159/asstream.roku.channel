@@ -1,7 +1,7 @@
 {
     "providerName": "Roku Tips and Tricks",
     "lastUpdated": "2023-11-18T09:04:00Z",
-    "language": "es-MX",
+    "language": "es",
     "shortFormVideos": [
       {
         "id": "17058b9e-a7dc-477e-afaa-0e10d97ddb99",
@@ -11,7 +11,7 @@
           "videos": [
             {
               "videoType": "HLS",
-              "url": "https://ovp-selector.sr.roku.com/v1/17058b9e-a7dc-477e-afaa-0e10d97ddb99?format=hls",
+              "url": "https://imagenuniversaltv.net:3771/live/iutvlive.m3u8",
               "quality": "HD"
             }
           ],
