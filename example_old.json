@@ -5,20 +5,10 @@
     "language": "es-MX",
     "En Vivo": [
       {
-        "longDescription": "Canal En vivo",
-        "thumbnail": "https://thedominicanchannels.net/wp-content/uploads/2013/07/imagen-universal-tv.png",
-        "releaseDate": "2024-01-01",
-        "genres": [
-          "master"
-        ],
-        "tags": [
-          "master"
-        ],
         "id": "679544c8129dd935d43146d9",
-        "shortDescription": "Canal En vivo",
         "title": "Imagen Universal",
         "content": {
-          "duration": 123,
+          "dateAdded": "2024-01-01",
           "videos": [
             {
               "videoType": "HLS",
@@ -26,9 +16,65 @@
               "quality": "SD"
             }
           ],
+          "duration": 123,
+          "captions": [
+            {
+              "url": "https://static-delivery.sr.roku.com/17058b9e-a7dc-477e-afaa-0e10d97ddb99/captions/HDCP_Error_RokuTipsandTricks_20210120T003500_cc_eng.vtt",
+              "language": "en",
+              "captionType": "CLOSED_CAPTION"
+            }
+          ],
+          "trickPlayFiles": [
+            {
+              "url": "https://static-delivery.sr.roku.com/17058b9e-a7dc-477e-afaa-0e10d97ddb99/images/17058b9e-a7dc-477e-afaa-0e10d97ddb99-sd.bif",
+              "quality": "SD"
+            },
+            {
+              "url": "https://static-delivery.sr.roku.com/17058b9e-a7dc-477e-afaa-0e10d97ddb99/images/17058b9e-a7dc-477e-afaa-0e10d97ddb99-hd.bif",
+              "quality": "HD"
+            },
+            {
+              "url": "https://static-delivery.sr.roku.com/17058b9e-a7dc-477e-afaa-0e10d97ddb99/images/17058b9e-a7dc-477e-afaa-0e10d97ddb99-fhd.bif",
+              "quality": "FHD"
+            }
+          ],
           "language": "es",
-          "dateAdded": "2024-01-01"
-        }
-       }
+          "audioFormats": [
+            "stereo"
+          ],
+          "audioTracks": [
+            {
+              "language": "en",
+              "label": "English (Original)"
+            }
+          ]
+          
+        },
+        "thumbnail": "https://thedominicanchannels.net/wp-content/uploads/2013/07/imagen-universal-tv.png",
+        "shortDescription": "Canal En vivo",
+        "releaseDate": "2024-01-01",
+        "longDescription": "Canal En vivo",
+        "tags": [
+          "master"
+        ],
+        "genres": [
+          "master"
+        ],
+        "rating": {
+          "rating": "NR",
+          "ratingSource": "USA_PR"
+        },
+        "externalIds": [
+          {
+            "id": "Roku101_HDCP",
+            "idType": "PARTNER_ASSET_ID"
+          },
+          {
+            "idType": "PARTNER_TITLE_ID",
+            "id": "Roku101_HDCP"
+          }
+        ],
+        "backdrop": "https://thedominicanchannels.net/wp-content/uploads/2013/07/imagen-universal-tv.png"
+      }
     ]
   }
