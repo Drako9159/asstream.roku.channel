@@ -2,10 +2,10 @@
     "providerName": "Roku Tips and Tricks",
     "lastUpdated": "2023-11-18T09:04:00Z",
     "language": "es",
-    "shortFormVideos": [
+    "En Vivo": [
       {
         "id": "17058b9e-a7dc-477e-afaa-0e10d97ddb99",
-        "title": "Help for an HDCP error",
+        "title": "Imagen Universal",
         "content": {
           "dateAdded": "2021-01-20T00:34:52Z",
           "videos": [
@@ -48,10 +48,10 @@
             }
           ]
         },
-        "thumbnail": "https://static-delivery.sr.roku.com/17058b9e-a7dc-477e-afaa-0e10d97ddb99/images/HDCP_Error.jpg",
-        "shortDescription": "What to do if you get an HDCP error screen",
+        "thumbnail": "https://thedominicanchannels.net/wp-content/uploads/2013/07/imagen-universal-tv.png",
+        "shortDescription": "Canal En Vivo",
         "releaseDate": "2019-10-15",
-        "longDescription": "What to do if you get an HDCP error screen",
+        "longDescription": "Canal en vivo",
         "tags": [
           "cable",
           "content",
