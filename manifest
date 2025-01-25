@@ -33,7 +33,7 @@ supports_input_launch=1
 #FEED_URL=https://content.jwplatform.com/feeds/6V5vHuPm.rss
 
 ' Update theme elements              
-FEED_URL=https://raw.githubusercontent.com/Drako9159/asstream.roku.channel/refs/heads/main/example_dats.json
+FEED_URL=http://172.29.184.249:5500/example_data.json
 
 #OverhangLogoUri=pkg:/images/background.webp
 #OverhangTitle=AsStream
