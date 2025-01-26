@@ -34,7 +34,7 @@ supports_input_launch=1
 
 ' Update theme elements              
 #FEED_URL=https://asstream-api-channel.fly.dev/api/channel
-FEED_URL=https://raw.githubusercontent.com/Drako9159/asstream.roku.channel/refs/heads/main/example_data.json
+FEED_URL=https://raw.githubusercontent.com/Drako9159/asstream.roku.channel/refs/heads/main/test.json
 
 OverhangLogoUri=pkg:/images/hd_overhang_logo.png
 #OverhangTitle=AsStream
