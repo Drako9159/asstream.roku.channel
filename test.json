@@ -9,8 +9,12 @@
       "thumbnail": "https://image.tmdb.org/t/p/w500/fqMRRBJJbPA04Ts9iyNtecurhgC.jpg",
       "releaseDate": "1999-07-14",
       "genres": [
-        "master"
+        "Terror"
       ],
+      "rating": {
+          "rating": "5",
+          "ratingSource": "USA_PR"
+        },
       "tags": [
         "master"
       ],
