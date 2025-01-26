@@ -92,6 +92,23 @@
     <script type="text/brightscript" uri="../utils/utils.brs" />
 
     <children>
+        <!--
+        <Rectangle
+            id="backdropPoster"
+            width="1280"
+            height="720"
+            color="0xFF000000">
+            
+            <Rectangle
+                id="blurredBackground"
+                width="1280"
+                height="720"
+                color="0x000000b7"
+                cornerRadius="[15, 15, 15, 15]"/>
+
+        </Rectangle>-->
+
+
         <LayoutGroup
             id="detailsGroup"
             translation="[1166, 0]"

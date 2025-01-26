@@ -26,7 +26,7 @@ sub OnDetailsContentSet(event as Object)
     if event.GetData().TITLE = "series"
         btnsContent.Update({ children: [{ title: "Episodes", id: "episodes" }] })
     else
-        btnsContent.Update({ children: [{ title: "Play", id: "play" }] })
+        btnsContent.Update({ children: [{ title: "Reproducir", id: "play" }] })
     end if
 
     details = event.GetRoSGNode()

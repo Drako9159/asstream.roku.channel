@@ -33,9 +33,9 @@ supports_input_launch=1
 #FEED_URL=https://content.jwplatform.com/feeds/6V5vHuPm.rss
 
 ' Update theme elements              
-FEED_URL=https://raw.githubusercontent.com/Drako9159/asstream.roku.channel/refs/heads/main/example_data.json
+FEED_URL=https://asstream-api-channel.fly.dev/api/channel
 
-#OverhangLogoUri=pkg:/images/background.webp
+OverhangLogoUri=pkg:/images/hd_overhang_logo.png
 #OverhangTitle=AsStream
 #OverhangTitleColor=0x662D91
 #OverhangBackgroundUri=pkg:/images/background.webp
@@ -44,7 +44,7 @@ FEED_URL=https://raw.githubusercontent.com/Drako9159/asstream.roku.channel/refs/
 #textColor=0x662D91
 #focusRingColor=0x662D91
 #progressBarColor=0x662D91
-#busySpinnerColor=0x662D91
+busySpinnerColor=0x662D91
 
 backgroundImageURI=pkg:/images/background.webp
 backgroundColor=0x662D91

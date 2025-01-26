@@ -2,6 +2,7 @@
 
 sub Init()
     initGridViewNodes()
+    
 
     m.Handler_ConfigField = "HandlerConfigGrid"
 
@@ -20,6 +21,8 @@ sub Init()
     m.top.style = "standard"
     m.top.posterShape = "16x9"
 end sub
+
+
 
 sub initGridViewNodes()
     m.details = m.top.viewContentGroup.CreateChild("ItemDetailsView")

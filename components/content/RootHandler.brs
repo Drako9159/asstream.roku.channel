@@ -45,7 +45,8 @@ sub GetContent()
                 children = []
             itemNode = CreateObject("roSGNode", "ContentNode")
                 Utils_ForceSetFields(itemNode, {
-                    hdPosterUrl: "pkg:/images/feed_too_large.jpg"
+                    hdPosterUrl: "pkg:/images/feed_too_large.jpg",
+                    hdBackdropUrl: "pkg:/images/feed_too_large.jpg",
                     Description: "Feed is too large"
                     id: "0"
                     Categories: "Feed is too large"
@@ -68,6 +69,7 @@ sub GetContent()
             itemNode = CreateObject("roSGNode", "ContentNode")
                 Utils_ForceSetFields(itemNode, {
                     hdPosterUrl: ""
+                    hdBackdropUrl: ""
                     Description: "Cannot obtain Feed"
                     id: "0"
                     Categories: "Cannot obtain Feed"
@@ -97,18 +99,21 @@ function parseRokuFeedSpec(xmlString as string) as Object
             }
             for each item in json
                 value = json[item]
-                if item = "movies" or item = "series" or item = "shortFormVideos" or item = "tvSpecials" or item = "liveFeeds"
+                'if item = "movies" or item = "series" or item = "shortFormVideos" or item = "tvSpecials" or item = "liveFeeds"
+                if item = "Movies" or item = "series" or item = "shortFormVideos" or item = "tvSpecials" or item = "TV en vivo"
                     children = []
                     for each arrayItem in value
                         itemNode = CreateObject("roSGNode", "ContentNode")
                         Utils_ForceSetFields(itemNode, {
                             hdPosterUrl: arrayItem.thumbnail
+                            hdBackdropUrl: arrayItem.backdrop
                             Description: arrayItem.shortDescription
                             id: arrayItem.id
                             Categories: arrayItem["genres"][0]
                             title: arrayItem.title
                         })
-                        if item = "movies" or item = "shortFormVideos" or item = "tvSpecials" or item = "liveFeeds"
+                        'if item = "movies" or item = "shortFormVideos" or item = "tvSpecials" or item = "liveFeeds"
+                        if item = "Movies" or item = "shortFormVideos" or item = "tvSpecials" or item = "TV en vivo"
                             ' Add 4k option
                             'Never do like this, it' s better to check if all fields exist in json, but in sample we can skip this step
                             itemNode.Url = arrayItem.content.videos[0].url
@@ -153,6 +158,7 @@ function GetEpisodeNodeFromJSON(episode)
         title: episode.title
         url: episode.content.videos[0].url
         hdPosterUrl: episode.thumbnail
+        hdBackdropUrl: episode.backdrop
         description: episode.shortDescription
     })
 

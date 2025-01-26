@@ -16,7 +16,9 @@ sub Init()
     m.buttons =          m.top.FindNode("buttons")
     m.styledPosterArea = m.top.FindNode("styledPosterArea")
 
-    m.detailsGroup = m.top.findNode("detailsGroup")
+    m.blurredBackground = m.top.FindNode("blurredBackground")
+
+    m.detailsGroup =     m.top.findNode("detailsGroup")
     m.top.viewContentGroup.appendChild(m.detailsGroup)
 
     ' Observe SGDEXComnponent fields
@@ -188,8 +190,26 @@ sub OnJumpToItem()
     end if
 end sub
 
+sub SetOvehangBackground(content as Object)
+    if m.overhang <> invalid
+        ' if content has backdrop image, set it as overhang background
+        m.blurredBackground.visible = true
+        m.top.theme = {
+        global: {	
+            backgroundImageURI: content.hdbackdropurl
+            'backgroundColor: "0xFF000000"
+            'backgroundRectangleColor: "0xFF000000"	
+            'OverhangBackgroundColor: AppInfo.GetValue("OverhangBackgroundColor")	
+        }
+    }
+    end if
+end sub
+
 sub SetDetailsContent(content as Object)
     if content <> invalid
+
+        SetOvehangBackground(content)
+
         m.poster.uri = content.hdposterurl
         contentDurationString = Utils_DurationAsString(content.length)
 
@@ -226,6 +246,7 @@ sub SetDetailsContent(content as Object)
         m.actorsLabel.text = ConvertToStringAndJoin(content.actors, ", ")
     else ' clear content
         SetOverhangTitle("")
+        m.backdrop.uri = ""
         m.poster.uri = ""
         m.info1.text = ""
         m.info2.text = ""
@@ -269,6 +290,7 @@ sub SetOverhangTitle(title as String)
         m.overhang.title = title
     end if
 end sub
+
 
 ' #################################################################################
 
@@ -387,7 +409,7 @@ sub SGDEX_UpdateViewUI()
                     m.top.viewContentGroup.translation = [0,contentGroupY]
                 else if isButtonBarVisible and not isButtonBarOverlay
                     absoluteButtonBarWidth = offset - GetViewXPadding()
-                    buttonBarViewContentPadding = 50
+                    buttonBarViewContentPadding = 0
                     m.top.viewContentGroup.translation = [absoluteButtonBarWidth + 30,contentGroupY]
 
                     distanceToShrinkRightGroup = m.descriptionLabel.sceneBoundingRect()["x"]+ m.descriptionLabel.sceneBoundingRect()["width"] - 1280 + 128

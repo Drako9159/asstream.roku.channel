@@ -22,11 +22,16 @@ sub Show(args as Object)
             backgroundColor: AppInfo.GetValue("backgroundColor")
         }
     }
+    ' Create the grid view
+    ' style: standard, hero, zoom, rmp 
+    ' posterShape: portrait, 4x3, 16x9, square
+    
     m.grid = CreateObject("roSGNode", "GridView")
     m.grid.SetFields({
-        style: "standard"
-        posterShape: "16x9"
+        style: "rmp"
+        posterShape: "portrait"
     })
+    ' Create the content node
     content = CreateObject("roSGNode", "ContentNode")
     content.AddFields({
         HandlerConfigGrid: {
