@@ -14,7 +14,7 @@ mm_icon_focus_hd=pkg:/images/icon_focus_hd.webp
 mm_icon_focus_sd=pkg:/images/icon_focus_hd.webp
 mm_icon_focus_fhd=pkg:/images/icon_focus_hd.webp
 
-bs_libs_required=roku_ads_lib
+#bs_libs_required=roku_ads_lib
 
 # Splash Screen
 splash_screen_fhd=pkg:/images/splash_hd.webp
@@ -33,8 +33,8 @@ supports_input_launch=1
 #FEED_URL=https://content.jwplatform.com/feeds/6V5vHuPm.rss
 
 ' Update theme elements              
-#FEED_URL=https://asstream-api-channel.fly.dev/api/channel
-FEED_URL=https://raw.githubusercontent.com/Drako9159/asstream.roku.channel/refs/heads/main/test.json
+FEED_URL=https://asstream-api-channel.fly.dev/api/channel
+#FEED_URL=https://raw.githubusercontent.com/Drako9159/asstream.roku.channel/refs/heads/main/test.json
 
 OverhangLogoUri=pkg:/images/hd_overhang_logo.png
 #OverhangTitle=AsStream
@@ -45,7 +45,7 @@ OverhangLogoUri=pkg:/images/hd_overhang_logo.png
 #textColor=0x662D91
 #focusRingColor=0x662D91
 #progressBarColor=0x662D91
-busySpinnerColor=0x662D91
+busySpinnerColor=0x2d5891
 
 backgroundImageURI=pkg:/images/background.webp
 backgroundColor=0x662D91

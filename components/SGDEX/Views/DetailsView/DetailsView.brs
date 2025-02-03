@@ -199,7 +199,6 @@ sub SetOvehangBackground(content as Object)
             backgroundImageURI: content.hdbackdropurl
             'backgroundColor: "0xFF000000"
             'backgroundRectangleColor: "0xFF000000"	
-            'OverhangBackgroundColor: AppInfo.GetValue("OverhangBackgroundColor")	
         }
     }
     end if
@@ -246,7 +245,7 @@ sub SetDetailsContent(content as Object)
         m.actorsLabel.text = ConvertToStringAndJoin(content.actors, ", ")
     else ' clear content
         SetOverhangTitle("")
-        m.backdrop.uri = ""
+        'm.backdrop.uri = ""
         m.poster.uri = ""
         m.info1.text = ""
         m.info2.text = ""

@@ -40,6 +40,7 @@ sub OnButtonSelected(event as Object)
     if selectedButton.id = "play"
         videoView = OpenVideoPlayer(details.content, details.itemFocused, details.isContentList)
         videoView.ObserveField("wasClosed", "OnVideoWasClosed")
+
     else if selectedButton.id = "episodes"
         ShowEpisodePickerView(details.currentItem.seasons)
     end if
