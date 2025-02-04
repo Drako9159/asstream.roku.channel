@@ -142,6 +142,19 @@ function parseRokuFeedSpec(xmlString as string) as Object
                         title: item
                         children: children
                     }
+
+                    if rowAA.title = "movies"
+                        rowAA.title = "Películas"
+                    else if rowAA.title = "series"
+                        rowAA.title = "Series"
+                    else if rowAA.title = "shortFormVideos"
+                        rowAA.title = "Videos Cortos"
+                    else if rowAA.title = "tvSpecials"
+                        rowAA.title = "Especiales de TV"
+                    else if rowAA.title = "liveFeeds"
+                        rowAA.title = "Transmisiones en Vivo"
+                    end if
+
                     rootChildren.children.Push(rowAA)
                 end if
             end for

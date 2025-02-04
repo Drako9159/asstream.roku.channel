@@ -1,0 +1,175 @@
+{
+    "providerName": "Roku Tips and Tricks",
+    "lastUpdated": "2023-11-18T09:04:00Z",
+    "language": "en",
+    "liveFeeds": [
+        {
+            "id": "6797256bba12123ab2298c3d",
+            "title": "Orbith TV En Vivo",
+            "content": {
+                "dateAdded": "2022-01-20T00:34:52Z",
+                "videos": [
+                    {
+                        "videoType": "HLS",
+                        "url": "https://ss3.domint.net:3134/otv_str/orbittv/chunklist_w265651215.m3u8",
+                        "quality": "HD"
+                    }
+                ],
+                "duration": 123,
+                "captions": [
+                    {
+                        "url": "https://static-delivery.sr.roku.com/17058b9e-a7dc-477e-afaa-0e10d97ddb99/captions/HDCP_Error_RokuTipsandTricks_20210120T003500_cc_eng.vtt",
+                        "language": "en",
+                        "captionType": "CLOSED_CAPTION"
+                    }
+                ],
+                "trickPlayFiles": [
+                    {
+                        "url": "https://static-delivery.sr.roku.com/17058b9e-a7dc-477e-afaa-0e10d97ddb99/images/17058b9e-a7dc-477e-afaa-0e10d97ddb99-sd.bif",
+                        "quality": "SD"
+                    },
+                    {
+                        "url": "https://static-delivery.sr.roku.com/17058b9e-a7dc-477e-afaa-0e10d97ddb99/images/17058b9e-a7dc-477e-afaa-0e10d97ddb99-hd.bif",
+                        "quality": "HD"
+                    },
+                    {
+                        "url": "https://static-delivery.sr.roku.com/17058b9e-a7dc-477e-afaa-0e10d97ddb99/images/17058b9e-a7dc-477e-afaa-0e10d97ddb99-fhd.bif",
+                        "quality": "FHD"
+                    }
+                ],
+                "language": "en",
+                "audioFormats": [
+                    "stereo"
+                ],
+                "audioTracks": [
+                    {
+                        "language": "en",
+                        "label": "English (Original)"
+                    }
+                ]
+            },
+            "thumbnail": "https://th.bing.com/th/id/R.00a12dbb6a060d23549e5d625f750972?rik=NW0Tsfkwuct9Lw&pid=ImgRaw&r=0",
+            "backdrop": "https://th.bing.com/th/id/R.00a12dbb6a060d23549e5d625f750972?rik=NW0Tsfkwuct9Lw&pid=ImgRaw&r=0",
+            "shortDescription": "Orbith TV En Vivo",
+            "releaseDate": "2024-01-01",
+            "longDescription": "La mejor programación en vivo",
+            "tags": [
+                "cable",
+                "content",
+                "error",
+                "fix",
+                "hdcp",
+                "hdmi",
+                "how",
+                "protected",
+                "roku",
+                "roku_101",
+                "screen",
+                "streaming",
+                "to",
+                "troubleshooting"
+            ],
+            "genres": [
+                "Entretenimiento"
+            ],
+            "rating": {
+                "rating": "NR",
+                "ratingSource": "USA_PR"
+            },
+            "externalIds": [
+                {
+                    "id": "Roku101_HDCP",
+                    "idType": "PARTNER_ASSET_ID"
+                },
+                {
+                    "idType": "PARTNER_TITLE_ID",
+                    "id": "Roku101_HDCP"
+                }
+            ]
+        },
+        {
+            "id": "6797256bba12123ab2298c3d",
+            "title": "Imagen Universal",
+            "content": {
+                "dateAdded": "2022-01-20T00:34:52Z",
+                "videos": [
+                    {
+                        "videoType": "HLS",
+                        "url": "https://imagenuniversaltv.net:3771/live/iutvlive.m3u8",
+                        "quality": "HD"
+                    }
+                ],
+                "duration": 123,
+                "captions": [
+                    {
+                        "url": "https://static-delivery.sr.roku.com/17058b9e-a7dc-477e-afaa-0e10d97ddb99/captions/HDCP_Error_RokuTipsandTricks_20210120T003500_cc_eng.vtt",
+                        "language": "en",
+                        "captionType": "CLOSED_CAPTION"
+                    }
+                ],
+                "trickPlayFiles": [
+                    {
+                        "url": "https://static-delivery.sr.roku.com/17058b9e-a7dc-477e-afaa-0e10d97ddb99/images/17058b9e-a7dc-477e-afaa-0e10d97ddb99-sd.bif",
+                        "quality": "SD"
+                    },
+                    {
+                        "url": "https://static-delivery.sr.roku.com/17058b9e-a7dc-477e-afaa-0e10d97ddb99/images/17058b9e-a7dc-477e-afaa-0e10d97ddb99-hd.bif",
+                        "quality": "HD"
+                    },
+                    {
+                        "url": "https://static-delivery.sr.roku.com/17058b9e-a7dc-477e-afaa-0e10d97ddb99/images/17058b9e-a7dc-477e-afaa-0e10d97ddb99-fhd.bif",
+                        "quality": "FHD"
+                    }
+                ],
+                "language": "en",
+                "audioFormats": [
+                    "stereo"
+                ],
+                "audioTracks": [
+                    {
+                        "language": "en",
+                        "label": "English (Original)"
+                    }
+                ]
+            },
+            "thumbnail": "https://thedominicanchannels.net/wp-content/uploads/2013/07/imagen-universal-tv.png",
+            "backdrop": "https://thedominicanchannels.net/wp-content/uploads/2013/07/imagen-universal-tv.png",
+            "shortDescription": "Imagen Universal TV En Vivo",
+            "releaseDate": "2024-01-01",
+            "longDescription": "La mejor programación en vivo",
+            "tags": [
+                "cable",
+                "content",
+                "error",
+                "fix",
+                "hdcp",
+                "hdmi",
+                "how",
+                "protected",
+                "roku",
+                "roku_101",
+                "screen",
+                "streaming",
+                "to",
+                "troubleshooting"
+            ],
+            "genres": [
+                "Entretenimiento"
+            ],
+            "rating": {
+                "rating": "NR",
+                "ratingSource": "USA_PR"
+            },
+            "externalIds": [
+                {
+                    "id": "Roku101_HDCP",
+                    "idType": "PARTNER_ASSET_ID"
+                },
+                {
+                    "idType": "PARTNER_TITLE_ID",
+                    "id": "Roku101_HDCP"
+                }
+            ]
+        }
+    ]
+}
