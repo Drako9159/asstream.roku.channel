@@ -436,7 +436,7 @@
                     "pubDate": "2023-11-18T09:04:00Z",
                     "media": {
                         "url": "https://imagenuniversaltv.net:3771/live/iutvlive.m3u8",
-                        "type": "HLS",
+                        "type": "video/mp4",
                         "width": 1920,
                         "height": 1080
                     }
@@ -447,7 +447,7 @@
                     "pubDate": "2023-11-18T09:04:00Z",
                     "media": {
                         "url": "https://imagenuniversaltv.net:3771/live/iutvlive.m3u8",
-                        "type": "HLS",
+                        "type": "video/mp4",
                         "width": 1920,
                         "height": 1080
                     }
