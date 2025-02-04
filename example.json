@@ -436,8 +436,23 @@
                 "media": {
                     "url": "https://imagenuniversaltv.net:3771/live/iutvlive.m3u8",
                     "type": "video/mp4",
-                    "width": 190,
-                    "height": 100
+                    "width": 1920,
+                    "height": 1080
+                }
+            }
+        },
+        {
+            "id": "679544c8129dd935d43146d9",
+            "title": "Resume",
+            "items": {
+                "title": "Title",
+                "description": "Description",
+                "pubDate": "2023-11-18T09:04:00Z",
+                "media": {
+                    "url": "https://imagenuniversaltv.net:3771/live/iutvlive.m3u8",
+                    "type": "video/mp4",
+                    "width": 1920,
+                    "height": 1080
                 }
             }
         }
