@@ -170,7 +170,92 @@
             ]
         }
     ],
-    "liveFeeds": [
+    "movies": [
+        {
+            "id": "679544c8129dd935d43146d9",
+            "title": "Imagen Universal",
+            "content": {
+                "dateAdded": "2022-01-20T00:34:52Z",
+                "videos": [
+                    {
+                        "videoType": "HLS",
+                        "url": "https://imagenuniversaltv.net:3771/live/iutvlive.m3u8",
+                        "quality": "HD"
+                    }
+                ],
+                "duration": 123,
+                "captions": [
+                    {
+                        "url": "https://static-delivery.sr.roku.com/17058b9e-a7dc-477e-afaa-0e10d97ddb99/captions/HDCP_Error_RokuTipsandTricks_20210120T003500_cc_eng.vtt",
+                        "language": "en",
+                        "captionType": "CLOSED_CAPTION"
+                    }
+                ],
+                "trickPlayFiles": [
+                    {
+                        "url": "https://static-delivery.sr.roku.com/17058b9e-a7dc-477e-afaa-0e10d97ddb99/images/17058b9e-a7dc-477e-afaa-0e10d97ddb99-sd.bif",
+                        "quality": "SD"
+                    },
+                    {
+                        "url": "https://static-delivery.sr.roku.com/17058b9e-a7dc-477e-afaa-0e10d97ddb99/images/17058b9e-a7dc-477e-afaa-0e10d97ddb99-hd.bif",
+                        "quality": "HD"
+                    },
+                    {
+                        "url": "https://static-delivery.sr.roku.com/17058b9e-a7dc-477e-afaa-0e10d97ddb99/images/17058b9e-a7dc-477e-afaa-0e10d97ddb99-fhd.bif",
+                        "quality": "FHD"
+                    }
+                ],
+                "language": "en",
+                "audioFormats": [
+                    "stereo"
+                ],
+                "audioTracks": [
+                    {
+                        "language": "en",
+                        "label": "English (Original)"
+                    }
+                ]
+            },
+            "thumbnail": "https://canalesdominicanos.live/template/images/radios/tni_canal_51_santo_domingo.jpg",
+            "shortDescription": "Canal En Vivo",
+            "releaseDate": "2022-10-15",
+            "longDescription": "La mejor programación en vivo",
+            "tags": [
+                "cable",
+                "content",
+                "error",
+                "fix",
+                "hdcp",
+                "hdmi",
+                "how",
+                "protected",
+                "roku",
+                "roku_101",
+                "screen",
+                "streaming",
+                "to",
+                "troubleshooting"
+            ],
+            "genres": [
+                "Entretenimiento"
+            ],
+            "rating": {
+                "rating": "NR",
+                "ratingSource": "USA_PR"
+            },
+            "externalIds": [
+                {
+                    "id": "Roku101_HDCP",
+                    "idType": "PARTNER_ASSET_ID"
+                },
+                {
+                    "idType": "PARTNER_TITLE_ID",
+                    "id": "Roku101_HDCP"
+                }
+            ]
+        }
+    ],
+    "series": [
         {
             "id": "679544c8129dd935d43146d9",
             "title": "Imagen Universal",
