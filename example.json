@@ -252,7 +252,15 @@
                     "idType": "PARTNER_TITLE_ID",
                     "id": "Roku101_HDCP"
                 }
-            ]
+            ],
+            "action": "display",
+            "contentid": "679544c8129dd935d43146d9",
+            "instant_on_run_mode": "foreground",
+            "isexternal": true,
+            "lastExitOrTerminationReason": "EXIT_UNKNOWN",
+            "mediatype": "live",
+            "source": "hs-search",
+            "splashTime": "0"
         }
     ]
 }
