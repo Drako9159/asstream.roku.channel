@@ -265,10 +265,13 @@
                     "description": "Description",
                     "pubDate": "2023-11-18T09:04:00Z",
                     "media": {
-                        "url": "https://imagenuniversaltv.net:3771/live/iutvlive.m3u8",
-                        "type": "video/mp4",
-                        "width": 1920,
-                        "height": 1080
+                        "content": {
+                            "url": "https://imagenuniversaltv.net:3771/live/iutvlive.m3u8",
+                            "type": "video/mp4",
+                            "width": 1920,
+                            "height": 1080
+                        },
+                        "thumbnail": "https://canalesdominicanos.live/template/images/radios/tni_canal_51_santo_domingo.jpg"
                     }
                 }
             ]
