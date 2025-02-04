@@ -435,14 +435,14 @@
                 "pubDate": "2023-11-18T09:04:00Z",
                 "media": {
                     "url": "https://imagenuniversaltv.net:3771/live/iutvlive.m3u8",
-                    "type": "video/mp4",
+                    "type": "HLS",
                     "width": 1920,
                     "height": 1080
                 }
             }
         },
         {
-            "id": "679544c8129dd935d43146d9",
+            "id": "679544c8129dd935d43146d9asd",
             "title": "Resume",
             "items": {
                 "title": "Title",
@@ -450,7 +450,7 @@
                 "pubDate": "2023-11-18T09:04:00Z",
                 "media": {
                     "url": "https://imagenuniversaltv.net:3771/live/iutvlive.m3u8",
-                    "type": "video/mp4",
+                    "type": "HLS",
                     "width": 1920,
                     "height": 1080
                 }
