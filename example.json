@@ -1,0 +1,90 @@
+{
+    "providerName": "Roku Tips and Tricks",
+    "lastUpdated": "2023-11-18T09:04:00Z",
+    "language": "en",
+    "shortFormVideos": [
+        {
+            "id": "17058b9e-a7dc-477e-afaa-0e10d97ddb99",
+            "title": "Help for an HDCP error",
+            "content": {
+                "dateAdded": "2021-01-20T00:34:52Z",
+                "videos": [
+                    {
+                        "videoType": "HLS",
+                        "url": "https://ovp-selector.sr.roku.com/v1/17058b9e-a7dc-477e-afaa-0e10d97ddb99?format=hls",
+                        "quality": "HD"
+                    }
+                ],
+                "duration": 204,
+                "captions": [
+                    {
+                        "url": "https://static-delivery.sr.roku.com/17058b9e-a7dc-477e-afaa-0e10d97ddb99/captions/HDCP_Error_RokuTipsandTricks_20210120T003500_cc_eng.vtt",
+                        "language": "en",
+                        "captionType": "CLOSED_CAPTION"
+                    }
+                ],
+                "trickPlayFiles": [
+                    {
+                        "url": "https://static-delivery.sr.roku.com/17058b9e-a7dc-477e-afaa-0e10d97ddb99/images/17058b9e-a7dc-477e-afaa-0e10d97ddb99-sd.bif",
+                        "quality": "SD"
+                    },
+                    {
+                        "url": "https://static-delivery.sr.roku.com/17058b9e-a7dc-477e-afaa-0e10d97ddb99/images/17058b9e-a7dc-477e-afaa-0e10d97ddb99-hd.bif",
+                        "quality": "HD"
+                    },
+                    {
+                        "url": "https://static-delivery.sr.roku.com/17058b9e-a7dc-477e-afaa-0e10d97ddb99/images/17058b9e-a7dc-477e-afaa-0e10d97ddb99-fhd.bif",
+                        "quality": "FHD"
+                    }
+                ],
+                "language": "en",
+                "audioFormats": [
+                    "stereo"
+                ],
+                "audioTracks": [
+                    {
+                        "language": "en",
+                        "label": "English (Original)"
+                    }
+                ]
+            },
+            "thumbnail": "https://static-delivery.sr.roku.com/17058b9e-a7dc-477e-afaa-0e10d97ddb99/images/HDCP_Error.jpg",
+            "shortDescription": "What to do if you get an HDCP error screen",
+            "releaseDate": "2019-10-15",
+            "longDescription": "What to do if you get an HDCP error screen",
+            "tags": [
+                "cable",
+                "content",
+                "error",
+                "fix",
+                "hdcp",
+                "hdmi",
+                "how",
+                "protected",
+                "roku",
+                "roku_101",
+                "screen",
+                "streaming",
+                "to",
+                "troubleshooting"
+            ],
+            "genres": [
+                "educational"
+            ],
+            "rating": {
+                "rating": "NR",
+                "ratingSource": "USA_PR"
+            },
+            "externalIds": [
+                {
+                    "id": "Roku101_HDCP",
+                    "idType": "PARTNER_ASSET_ID"
+                },
+                {
+                    "idType": "PARTNER_TITLE_ID",
+                    "id": "Roku101_HDCP"
+                }
+            ]
+        }
+    ]
+}

@@ -22,6 +22,9 @@ splash_screen_hd=pkg:/images/splash_hd.webp
 splash_screen_sd=pkg:/images/splash_hd.webp
 splash_color=#121212
 
+
+# splash_min_time=1500
+
 # Resolution
 ui_resolutions=hd
 
@@ -34,6 +37,7 @@ supports_input_launch=1
 
 ' Update theme elements              
 FEED_URL=https://asstream-api-channel.fly.dev/api/channel
+# FEED_URL=https://ovp-feeds2-886239521314.s3.amazonaws.com/roku_tips_and_tricks_clip/ovpfeed.json
 #FEED_URL=https://raw.githubusercontent.com/Drako9159/asstream.roku.channel/refs/heads/main/test.json
 
 OverhangLogoUri=pkg:/images/hd_overhang_logo.png

@@ -21,10 +21,36 @@ sub Show(args as Object)
     }
     
     ShowLoginDialog()
+    
+    ' ShowGridComponent()
 
-    ' PlayVideoById("679544c8129dd935d43146d9")
+    m.grid = CreateObject("roSGNode", "GridView")
+    m.grid.SetFields({
+        style: "rmp"
+        posterShape: "portrait"
+    })
+    
+    ' Create the content node
+    content = CreateObject("roSGNode", "ContentNode")
+    content.AddFields({
+        HandlerConfigGrid: {
+            name: "RootHandler"
+        }
+    })
 
-    ShowGridComponent()
+    m.grid.content = content
+    m.grid.ObserveField("rowItemSelected", "OnGridItemSelected")
+
+    ' m.grid.ObserveField("content", "OnGridContentSet")
+    ' m.grid.ObserveField("content", "OnGridContentChanged")
+
+
+    ' id = "679544c8129dd935d43146d9"
+
+    m.top.ComponentController.CallFunc("show", {
+        view: m.grid
+    })
+
 
     ' test deep linking
     ' curl -d "" "http://192.168.0.247:8060/launch/dev?contentId=67959cf9c707667e3da4f9d3&mediaType=movie"
@@ -72,39 +98,6 @@ sub ShowGridComponent()
     })
 end sub
 
-
-' ========== FUNCIÓN DE MANEJO DEL OBSERVER ==========
-sub OnGridContentChanged(event as Object)
-
-    grid = event.GetRoSGNode()
-    content = grid.content
-
-    playableItem = FindNodeById(m.grid.content, "679544c8129dd935d43146d9")
-
-    OpenVideoPlayerItem(playableItem)
-    
-end sub
-
-
-' Helper function finds child node by specified contentId
-function FindNodeById(content as Object, contentId as String) as Object
-    for each element in content.GetChildren(-1, 0)
-        if element.id = contentId
-            return element
-        else if element.getChildCount() > 0
-            result = FindNodeById(element, contentId)
-            if result <> invalid
-                return result
-            end if
-        end if
-    end for
-    return invalid
-end function
-
-
-
-
-
 sub OnGridItemSelected(event as Object)
     grid = event.GetRoSGNode()
     selectedIndex = event.GetData()
@@ -134,34 +127,5 @@ sub ShowLoginDialog()
     ' Signal AppDialogComplete beacon
     m.top.signalBeacon("AppDialogComplete")
 end sub
-
-sub PlayVideoById(videoId as String)
-    ' Create the content node
-    content = CreateObject("roSGNode", "ContentNode")
-    content.AddFields({
-        HandlerConfigGrid: {
-            name: "RootHandler"
-        }
-    })
-    ' Find the video content by id
-    videoContent = FindVideoContentById(content, videoId)
-    if videoContent <> invalid
-        videoView = OpenVideoPlayerItem(videoContent)
-        videoView.ObserveField("wasClosed", "OnVideoWasClosed")
-    else
-        ? "Video not found: "; videoId
-    end if
-end sub
-
-
-function FindVideoContentById(content as Object, videoId as String) as Object
-    for each item in content.GetChildren()
-        if item.id = videoId
-            return item
-        end if
-    end for
-    return invalid
-end function 
-
 
 
