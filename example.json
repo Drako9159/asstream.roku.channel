@@ -85,7 +85,8 @@
                     "id": "Roku101_HDCP"
                 }
             ]
-        },{
+        },
+        {
             "id": "679544c8129dd935d43146d9",
             "title": "Imagen Universal",
             "content": {
@@ -166,8 +167,7 @@
                     "idType": "PARTNER_TITLE_ID",
                     "id": "Roku101_HDCP"
                 }
-            ],
-            "backdrop": "https://canalesdominicanos.live/template/images/radios/tni_canal_51_santo_domingo.jpg"
+            ]
         }
     ],
     "liveFeed": [
