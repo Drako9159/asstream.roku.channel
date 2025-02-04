@@ -99,8 +99,7 @@ function parseRokuFeedSpec(xmlString as string) as Object
             }
             for each item in json
                 value = json[item]
-                'if item = "movies" or item = "series" or item = "shortFormVideos" or item = "tvSpecials" or item = "liveFeeds"
-                if item = "Movies" or item = "series" or item = "shortFormVideos" or item = "tvSpecials" or item = "TV en vivo"
+                if item = "movies" or item = "series" or item = "shortFormVideos" or item = "tvSpecials" or item = "liveFeeds"
                     children = []
                     for each arrayItem in value
                         itemNode = CreateObject("roSGNode", "ContentNode")
@@ -112,8 +111,7 @@ function parseRokuFeedSpec(xmlString as string) as Object
                             Categories: arrayItem["genres"][0]
                             title: arrayItem.title
                         })
-                        'if item = "movies" or item = "shortFormVideos" or item = "tvSpecials" or item = "liveFeeds"
-                        if item = "Movies" or item = "shortFormVideos" or item = "tvSpecials" or item = "TV en vivo"
+                        if item = "movies" or item = "shortFormVideos" or item = "tvSpecials" or item = "liveFeeds"
                             ' Add 4k option
                             'Never do like this, it' s better to check if all fields exist in json, but in sample we can skip this step
                             itemNode.Url = arrayItem.content.videos[0].url
