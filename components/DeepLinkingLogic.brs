@@ -4,6 +4,7 @@ function IsDeepLinking(args as Object)
 end function
 
 sub PerformDeepLinking(args as Object)
+
     ' Validar si se pasó contenido para deep linking
     if IsDeepLinking(args) then
 
@@ -34,11 +35,14 @@ sub implementDeepLinking()
             ' Navigate to the movie screen with the specified contentId
             OpenVideoPlayerItem(playableItem)
             
-        else if playableItem <> invalid and mediaType = "series" then
+        else if playableItem <> invalid and mediaType = "liveFeeds" then
             ' Navigate to the series screen with the specified contentId
             OpenVideoPlayerItem(playableItem)
 
-        else if playableItem <> invalid and mediaType = "shortFormVideo" then
+        else if playableItem <> invalid and mediaType = "tvSpecials" then
+            ' Navigate to the series screen with the specified contentId
+            OpenVideoPlayerItem(playableItem)
+        else if playableItem <> invalid and mediaType = "movies" then
             ' Navigate to the series screen with the specified contentId
             OpenVideoPlayerItem(playableItem)
         else

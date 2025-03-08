@@ -22,38 +22,10 @@ sub Show(args as Object)
     
     ShowLoginDialog()
     
-    ' ShowGridComponent()
-
-    m.grid = CreateObject("roSGNode", "GridView")
-    m.grid.SetFields({
-        style: "rmp"
-        posterShape: "portrait"
-    })
-    
-    ' Create the content node
-    content = CreateObject("roSGNode", "ContentNode")
-    content.AddFields({
-        HandlerConfigGrid: {
-            name: "RootHandler"
-        }
-    })
-
-    m.grid.content = content
-    m.grid.ObserveField("rowItemSelected", "OnGridItemSelected")
-
-    ' m.grid.ObserveField("content", "OnGridContentSet")
-    ' m.grid.ObserveField("content", "OnGridContentChanged")
-
-
-    ' id = "679544c8129dd935d43146d9"
-
-    m.top.ComponentController.CallFunc("show", {
-        view: m.grid
-    })
-
+    ShowGridComponent()
 
     ' test deep linking
-    ' curl -d "" "http://192.168.0.247:8060/launch/dev?contentId=67959cf9c707667e3da4f9d3&mediaType=movie"
+    ' curl -d "" "http://192.168.0.247:8060/launch/dev?contentID=67a3c7b6b4e8c78e753a1c9d&mediaType=movie"
 
     ' Check for deep linking
     ' action(m)
@@ -75,7 +47,7 @@ sub ShowGridComponent()
         style: "rmp"
         posterShape: "portrait"
     })
-    
+
     ' Create the content node
     content = CreateObject("roSGNode", "ContentNode")
     content.AddFields({
@@ -89,13 +61,13 @@ sub ShowGridComponent()
 
     ' m.grid.ObserveField("content", "OnGridContentSet")
     ' m.grid.ObserveField("content", "OnGridContentChanged")
-
-
     ' id = "679544c8129dd935d43146d9"
 
     m.top.ComponentController.CallFunc("show", {
         view: m.grid
     })
+
+   
 end sub
 
 sub OnGridItemSelected(event as Object)

@@ -150,9 +150,9 @@ function parseRokuFeedSpec(xmlString as string) as Object
                     else if rowAA.title = "shortFormVideos"
                         rowAA.title = "Videos Cortos"
                     else if rowAA.title = "tvSpecials"
-                        rowAA.title = "Especiales de TV"
+                        rowAA.title = "Transmisiones de Twitch"
                     else if rowAA.title = "liveFeeds"
-                        rowAA.title = "Transmisiones en Vivo"
+                        rowAA.title = "Canales de TV En Vivo"
                     end if
 
                     rootChildren.children.Push(rowAA)
