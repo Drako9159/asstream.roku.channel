@@ -25,7 +25,8 @@ sub Show(args as Object)
     ShowGridComponent()
 
     ' test deep linking
-    ' curl -d "" "http://192.168.0.247:8060/launch/dev?contentID=67a3c7b6b4e8c78e753a1c9d&mediaType=movie"
+    ' curl -d "" "http://192.168.0.247:8060/launch/dev?contentID=6797256bba12123ab2298c3d&mediaType=movie"
+
 
     ' Check for deep linking
     ' action(m)
