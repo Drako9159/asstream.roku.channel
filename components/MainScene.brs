@@ -25,7 +25,7 @@ sub Show(args as Object)
     ShowGridComponent()
 
     ' test deep linking
-    ' curl -d "" "http://192.168.0.247:8060/launch/dev?contentID=6797256bba12123ab2298c3d&mediaType=movie"
+    ' curl -d "" "http://192.168.0.247:8060/launch/dev?contentID=6797256bba12123ab2298c2d&mediaType=movie"
 
 
     ' Check for deep linking
@@ -39,7 +39,7 @@ sub Show(args as Object)
     m.top.signalBeacon("AppLaunchComplete")
 end sub
 
-sub ShowGridComponent()
+function ShowGridComponent()
     ' Create the grid view
     ' style: standard, hero, zoom, rmp 
     ' posterShape: portrait, 4x3, 16x9, square
@@ -69,7 +69,7 @@ sub ShowGridComponent()
     })
 
    
-end sub
+end function
 
 sub OnGridItemSelected(event as Object)
     grid = event.GetRoSGNode()
