@@ -28,6 +28,8 @@ sub Show(args as Object)
     ' curl -d "" "http://192.168.0.247:8060/launch/dev?contentID=67a3c7b6b4e8c78e753a1c9d&mediaType=movie"
     ' rm -rf as_stream.zip && zip -r as_stream.zip . -x "/.git/*" "/.git/**"
     ' define optionals
+    ' telnet roku-ip-address 8085
+    ' telnet 192.168.0.247 8085
 
 
     ' Check for deep linking
@@ -47,7 +49,7 @@ function ShowGridComponent()
     ' posterShape: portrait, 4x3, 16x9, square
     m.grid = CreateObject("roSGNode", "GridView")
     m.grid.SetFields({
-        style: "rmp"
+        style: "standard"
         posterShape: "portrait"
     })
 

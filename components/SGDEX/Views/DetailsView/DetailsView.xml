@@ -158,10 +158,11 @@
                     itemSpacing="[0,10]"
                     itemSize="[593, 48]"
                 />
-
+                <!-- Translation default is [0, 208] -->
                 <LayoutGroup
                     itemSpacings="[40]"
-                    translation="[0, 208]">
+                    
+                    translation="[0, 78]">
                     <Label
                         id="description"
                         wrap="true"

@@ -99,7 +99,11 @@ function parseRokuFeedSpec(xmlString as string) as Object
             }
             for each item in json
                 value = json[item]
+                ' this if is a filter to show only the categories that we want to show
                 if item = "movies" or item = "series" or item = "shortFormVideos" or item = "tvSpecials" or item = "liveFeeds"
+                    ' skip items that are not categories
+                ' if item <> "providerName" and item <> "lastUpdated" and item <> "language"
+                
                     children = []
                     for each arrayItem in value
                         itemNode = CreateObject("roSGNode", "ContentNode")
@@ -112,6 +116,8 @@ function parseRokuFeedSpec(xmlString as string) as Object
                             title: arrayItem.title
                         })
                         if item = "movies" or item = "shortFormVideos" or item = "tvSpecials" or item = "liveFeeds"
+                        ' if item <> "providerName" and item <> "lastUpdated" and item <> "language"
+                        ' if item <> "series"
                             ' Add 4k option
                             'Never do like this, it' s better to check if all fields exist in json, but in sample we can skip this step
                             itemNode.Url = arrayItem.content.videos[0].url
@@ -143,6 +149,7 @@ function parseRokuFeedSpec(xmlString as string) as Object
                         children: children
                     }
 
+                    ' rename the categories to spanish for the UI
                     if rowAA.title = "movies"
                         rowAA.title = "Películas"
                     else if rowAA.title = "series"

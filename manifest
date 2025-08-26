@@ -48,10 +48,13 @@ OverhangLogoUri=pkg:/images/hd_overhang_logo.png
 #OverhangBackgroundUri=pkg:/images/background.webp
 #OverhangBackgroundColor=0x662D91
 
-#textColor=0x662D91
-#focusRingColor=0x662D91
+textColor=0xEFFBFF
+focusRingColor=0x2d5891
+#focusRingColor=0x2d5891
 #progressBarColor=0x662D91
+progressBarColor=0x2d5891
 busySpinnerColor=0x2d5891
+#focusBitmapBlendColor=0x2d5891
 
 backgroundImageURI=pkg:/images/background.webp
-backgroundColor=0x662D91
+backgroundColor=0x2d5891

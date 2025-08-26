@@ -59,9 +59,9 @@ sub Init()
     ' used to restore default view UI if user reset style
     m.defaultUIConfig = {
         poster: {
-            maxWidth: 357
-            maxHeight: 201
-            shape: "16x9"
+            maxWidth: 357 'default is 357
+            maxHeight: 201 'default is 201
+            shape: "16x9" 'default is 16x9
             translation: [0, 0]
         }
         info1: {
@@ -96,7 +96,7 @@ end sub
 
 function GetUIConfigForStyle(style as String) as Object
     uiConfig = m.defaultUIConfig
-
+    ' default is rmp
     if style = "rmp"
         uiConfig = {
             info1: {
@@ -121,6 +121,8 @@ sub OnPosterShapeChange()
     posterX = (m.styledPosterArea.width - m.poster.width) / 2
     posterY = (m.styledPosterArea.height - m.poster.height) / 2
     m.poster.translation = [posterX, posterY]
+
+    
 end sub
 
 sub OnWasShown()
@@ -242,6 +244,7 @@ sub SetDetailsContent(content as Object)
         end if
         m.info2.text = info2Text
         m.descriptionLabel.text = content.description
+        
         m.actorsLabel.text = ConvertToStringAndJoin(content.actors, ", ")
     else ' clear content
         SetOverhangTitle("")
@@ -401,6 +404,7 @@ sub SGDEX_UpdateViewUI()
         isAutoHide = buttonBar.autoHide
         descriptionLabelWidth = 593
 
+
         if buttonBar <> invalid and m.detailsGroup <> invalid
             if buttonBar.alignment = "left"
                 offset = GetButtonBarWidth()
@@ -410,7 +414,6 @@ sub SGDEX_UpdateViewUI()
                     absoluteButtonBarWidth = offset - GetViewXPadding()
                     buttonBarViewContentPadding = 0
                     m.top.viewContentGroup.translation = [absoluteButtonBarWidth + 30,contentGroupY]
-
                     distanceToShrinkRightGroup = m.descriptionLabel.sceneBoundingRect()["x"]+ m.descriptionLabel.sceneBoundingRect()["width"] - 1280 + 128
                     ' shrink buttons and right labels only if it should be shrinked less then in 2/3
                     if distanceToShrinkRightGroup < (593 / 3)*2
@@ -434,9 +437,9 @@ sub SGDEX_UpdateViewUI()
 
         if m.descriptionLabel <> invalid
             if contentGroupY > 174
-                m.descriptionLabel.maxLines = 3
+                m.descriptionLabel.maxLines = 9 'default is 3
             else
-                m.descriptionLabel.maxLines = 5
+                m.descriptionLabel.maxLines = 11 'default is 5
             end if
         end if
     end if
