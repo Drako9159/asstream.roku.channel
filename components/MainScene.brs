@@ -7,7 +7,7 @@ sub Show(args as Object)
 	m.top.theme = {
         global: {
         	OverhangLogoUri: AppInfo.GetValue("OverhangLogoUri")
-            OverhangTitle: AppInfo.GetValue("OverhangTitle")	 		
+            OverhangTitle: AppInfo.GetValue("OverhangTitle")	
             OverhangTitleColor: AppInfo.GetValue("OverhangTitleColor")		
             OverhangBackgroundUri: AppInfo.GetValue("OverhangBackgroundUri")		
             OverhangBackgroundColor: AppInfo.GetValue("OverhangBackgroundColor")	
@@ -23,6 +23,8 @@ sub Show(args as Object)
     ShowLoginDialog()
     
     ShowGridComponent()
+
+    print "----------> GridView Loaded"
 
     ' test deep linking
     ' curl -d "" "http://192.168.0.247:8060/launch/dev?contentID=67a3c7b6b4e8c78e753a1c9d&mediaType=movie"
@@ -100,6 +102,7 @@ sub ShowLoginDialog()
     m.top.signalBeacon("AppDialogInitiate")
 
     ' Show login dialog logic here
+
 
     ' Signal AppDialogComplete beacon
     m.top.signalBeacon("AppDialogComplete")

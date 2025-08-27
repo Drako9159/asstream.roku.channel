@@ -228,9 +228,26 @@
 
             Controls how SGDEX will load the content for the view
         -->
+        
+        <!-- @Public -->
+        <!--
+            Field to trigger the About view
+        -->
+        <field id="showAbout" type="boolean" value="false" alwaysNotify="true" onChange="OnShowAboutChange" />
     </interface>
 
-
+    <children>
+        <!-- About button in top right corner -->
+        <Button
+            id="aboutButton"
+            text="Información"
+            translation="[1000, 50]"
+            focusable="true"
+            minWidth="80"
+            height="50"
+            showFocusFootprint="true"
+        />
+    </children>
     
     
     <script type="text/brightscript" uri="GridView.brs" />

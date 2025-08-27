@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Copyright (c) 2024 Roku, Inc. All rights reserved. -->
+
+<component name="AboutView" extends="SGDEXComponent" xsi:noNamespaceSchemaLocation="https://devtools.web.roku.com/schema/RokuSceneGraph.xsd">
+    <interface>
+        <!-- @Public -->
+        <!--
+            Controls the color of visual elements
+        -->
+        <!--<field id="theme" type="assocarray" /> -->
+        <!-- <field id="closeAbout" type="boolean" value="false" alwaysNotify="true" onChange="OnCloseAboutChange" /> -->
+        <field id="closeAbout" type="boolean" value="false" alwaysNotify="true" onChange="OnCloseAboutChange" />
+    
+    </interface>
+
+    <children>
+        <!-- Background -->
+        <!--<Rectangle
+            id="background"
+            translation="[0, 0]"
+            width="1280"
+            height="720"
+            color="0x000000FF"
+        /> -->
+        
+        <!-- Main content container -->
+        <LayoutGroup
+            id="contentContainer"
+            translation="[640, 360]"
+            horizAlignment="center"
+            vertAlignment="center"
+            itemSpacings="[20]"
+        >
+            <!-- App Title -->
+            <Label
+                id="appTitle"
+                text="AsStream"
+                font="font:MediumBoldSystemFont"
+                color="0xFFFFFFFF"
+                horizAlign="center"
+            />
+            
+            <!-- App Description -->
+            <Label
+                id="appDescription"
+                text="Tu canal de streaming personalizado"
+                font="font:MediumSystemFont"
+                color="0xCCCCCCFF"
+                horizAlign="center"
+                width="600"
+            />
+            
+            <!-- Version Info -->
+            <Label
+                id="versionInfo"
+                text="Versión 1.0.0"
+                font="font:SmallSystemFont"
+                color="0x888888FF"
+                horizAlign="center"
+            />
+            
+            <!-- Developer Info -->
+            <Label
+                id="developerInfo"
+                text="Desarrollado por AsStream Team"
+                font="font:SmallSystemFont"
+                color="0x888888FF"
+                horizAlign="center"
+            />
+            
+            <!-- Copyright -->
+            <Label
+                id="copyrightInfo"
+                text="© 2025 AsStream. Todos los derechos reservados."
+                font="font:SmallSystemFont"
+                color="0x888888FF"
+                horizAlign="center"
+            />
+            <!-- Back Button -->
+            <Button
+                id="backButtonAbout"
+                text="Volver"
+                translation="[1000, 50]"
+                focusable="true"
+                minWidth="120"
+                height="50"
+                showFocusFootprint="true"
+            />
+            
+        </LayoutGroup>
+        
+    </children>
+
+    <script type="text/brightscript" uri="AboutView.brs" />
+</component>

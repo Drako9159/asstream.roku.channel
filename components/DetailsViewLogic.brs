@@ -24,7 +24,7 @@ end function
 sub OnDetailsContentSet(event as Object)
     btnsContent = CreateObject("roSGNode", "ContentNode")
     if event.GetData().TITLE = "series"
-        btnsContent.Update({ children: [{ title: "Episodes", id: "episodes" }] })
+        btnsContent.Update({ children: [{ title: "Episodios", id: "episodes" }] })
     else
         btnsContent.Update({ children: [{ title: "Reproducir", id: "play" }] })
     end if

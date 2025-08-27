@@ -16,6 +16,13 @@ sub Init()
 
     m.top.ObserveFieldScoped("rowItemFocused", "OnRowItemFocusedChange")
     m.top.ObserveField("focusedChild", "OnFocusedChildChanged")
+    m.top.ObserveField("showAbout", "OnShowAboutChange")
+
+    ' Set up About button
+    m.aboutButton = m.top.FindNode("aboutButton")
+    if m.aboutButton <> invalid
+        m.aboutButton.ObserveField("buttonSelected", "OnAboutButtonSelected")
+    end if
 
     ' Set default values
     m.top.style = "standard"
@@ -73,7 +80,7 @@ sub OnUpdateFocusedItem()
 end sub
 
 sub OnFocusedChildChanged()
-    if m.gridNode <> invalid and m.top.IsInFocusChain() and not m.gridNode.HasFocus()
+    if m.gridNode <> invalid and m.top.IsInFocusChain() and not m.gridNode.HasFocus() and not m.aboutButton.HasFocus()
         m.gridNode.SetFocus(true)
     end if
 end sub
@@ -421,7 +428,7 @@ sub SGDEX_SetTheme(theme as Object)
     colorTheme = {
         TextColor: {
             gridNode: [
-                "rowLabelColor"
+                '"rowLabelColor"
                 "rowTitleColor"
                 "rowCounterColor"
                 "itemTextColorLine1"
@@ -440,7 +447,7 @@ sub SGDEX_SetTheme(theme as Object)
     SGDEX_setThemeFieldstoNode(m, colorTheme, theme)
 
     gridThemeAttributes = {
-        rowLabelColor:             { gridNode: ["rowLabelColor", "rowTitleColor", "rowCounterColor"] }
+        ' rowLabelColor:             { gridNode: ["rowLabelColor", "rowTitleColor", "rowCounterColor"] }
         focusRingColor:            { gridNode: "focusBitmapBlendColor" }
         focusFootprintColor:       { gridNode: "focusFootprintBlendColor" }
         itemTextColorLine1:        { gridNode: "itemTextColorLine1" }
@@ -494,3 +501,48 @@ sub SGDEX_UpdateViewUI()
         RebuildRowList()
     end if
 end sub
+
+' Handle About button selection
+sub OnAboutButtonSelected(event as Object)
+    print "--------> About button selected"
+    m.top.showAbout = true
+end sub
+
+' Handle showAbout field change
+sub OnShowAboutChange(event as Object)
+    if m.top.showAbout = true
+        ShowAboutView()
+        m.top.showAbout = false
+    end if
+end sub
+
+' Show the About view
+sub ShowAboutView()
+    aboutView = CreateObject("roSGNode", "AboutView")
+    if aboutView <> invalid
+        m.top.getScene().ComponentController.CallFunc("show", {
+            view: aboutView
+        })
+    end if
+end sub
+
+' Handle key events for navigation
+function OnKeyEvent(key as String, press as Boolean) as Boolean
+    handled = false
+    
+    if press
+        if key = "up" and m.aboutButton.HasFocus()
+            ' Move focus to grid when pressing up from About button
+            if m.gridNode <> invalid
+                m.gridNode.SetFocus(true)
+                handled = true
+            end if
+        else if key = "down" and m.gridNode <> invalid and m.gridNode.HasFocus()
+            ' Move focus to About button when pressing down from grid
+            m.aboutButton.SetFocus(true)
+            handled = true
+        end if
+    end if
+    
+    return handled
+end function
