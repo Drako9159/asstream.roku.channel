@@ -246,6 +246,10 @@
             minWidth="80"
             height="50"
             showFocusFootprint="true"
+            
+            focusFootprintBitmapUri="pkg:/components/SGDEX/images/focus.9_false.png"
+            focusFootprintBlendColor="0xFFFFFFFF"
+            
         />
     </children>
     
