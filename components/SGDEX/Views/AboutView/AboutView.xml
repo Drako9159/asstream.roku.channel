@@ -71,7 +71,7 @@
             <!-- Copyright -->
             <Label
                 id="copyrightInfo"
-                text="© 2025 AsStream. Todos los derechos reservados."
+                text="© 2026 AsStream. Todos los derechos reservados."
                 font="font:SmallSystemFont"
                 color="0x888888FF"
                 horizAlign="center"
