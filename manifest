@@ -56,5 +56,6 @@ progressBarColor=0x2d5891
 busySpinnerColor=0x2d5891
 #focusBitmapBlendColor=0x2d5891
 
-backgroundImageURI=pkg:/images/background.webp
+#backgroundImageURI=pkg:/images/background.webp
+backgroundImageURI=pkg:/images/tematic/background_otono.webp
 backgroundColor=0x2d5891
