@@ -4,10 +4,10 @@
 # Title
 title=AsStream
 
-# Version 1.2.4
-major_version=1
-minor_version=2
-build_version=4
+# Version 2.0.0
+major_version=2
+minor_version=0
+build_version=0
 
 # Channel Assets
 mm_icon_focus_hd=pkg:/images/icon_focus_hd.webp
@@ -38,7 +38,8 @@ supports_input_launch=1
 #FEED_URL=https://content.jwplatform.com/feeds/6V5vHuPm.rss
 
 ' Update theme elements              
-FEED_URL=https://asstream-api-channel.fly.dev/api/channel
+# FEED_URL=https://asstream-api-channel.fly.dev/api/channel
+FEED_URL=https://asstream-v2.fly.dev/api/feed?user_id=f73135e8-6d43-40a6-9063-b6dd7810f00e
 # FEED_URL=https://ovp-feeds2-886239521314.s3.amazonaws.com/roku_tips_and_tricks_clip/ovpfeed.json
 # FEED_URL=https://raw.githubusercontent.com/Drako9159/asstream.roku.channel/refs/heads/main/data.json
 

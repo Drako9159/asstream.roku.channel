@@ -100,7 +100,7 @@ function parseRokuFeedSpec(xmlString as string) as Object
             for each item in json
                 value = json[item]
                 ' this if is a filter to show only the categories that we want to show
-                if item = "movies" or item = "series" or item = "shortFormVideos" or item = "tvSpecials" or item = "liveFeeds"
+                if item = "movies" or item = "series" or item = "shortFormVideos" or item = "tvSpecials" or item = "liveFeeds" or item = "family" or item = "entertainment" or item = "movies" or item = "general" or item = "extra" or item = "animation" or item = "culture" or item = "kids"
                     ' skip items that are not categories
                 ' if item <> "providerName" and item <> "lastUpdated" and item <> "language"
                 
@@ -115,7 +115,7 @@ function parseRokuFeedSpec(xmlString as string) as Object
                             Categories: arrayItem["genres"][0]
                             title: arrayItem.title
                         })
-                        if item = "movies" or item = "shortFormVideos" or item = "tvSpecials" or item = "liveFeeds"
+                        if item = "movies" or item = "shortFormVideos" or item = "tvSpecials" or item = "liveFeeds" or item = "family" or item = "entertainment" or item = "general" or item = "extra" or item = "animation" or item = "culture" or item = "kids"
                         ' if item <> "providerName" and item <> "lastUpdated" and item <> "language"
                         ' if item <> "series"
                             ' Add 4k option
@@ -160,6 +160,20 @@ function parseRokuFeedSpec(xmlString as string) as Object
                         rowAA.title = "Transmisiones de Twitch"
                     else if rowAA.title = "liveFeeds"
                         rowAA.title = "Canales de TV En Vivo"
+                    else if rowAA.title = "family"
+                        rowAA.title = "Familia"
+                    else if rowAA.title = "entertainment"
+                        rowAA.title = "Entretenimiento"
+                    else if rowAA.title = "general"
+                        rowAA.title = "General"
+                    else if rowAA.title = "extra"
+                        rowAA.title = "Extra"
+                    else if rowAA.title = "animation"
+                        rowAA.title = "Animación"
+                    else if rowAA.title = "culture"
+                        rowAA.title = "Cultura"
+                    else if rowAA.title = "kids"
+                        rowAA.title = "Niños"
                     end if
 
                     rootChildren.children.Push(rowAA)
