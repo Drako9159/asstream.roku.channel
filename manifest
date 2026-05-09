@@ -40,6 +40,8 @@ supports_input_launch=1
 ' Update theme elements              
 # FEED_URL=https://asstream-api-channel.fly.dev/api/channel
 FEED_URL=https://asstream-v2.fly.dev/api/feed?user_id=f73135e8-6d43-40a6-9063-b6dd7810f00e
+
+
 # FEED_URL=https://ovp-feeds2-886239521314.s3.amazonaws.com/roku_tips_and_tricks_clip/ovpfeed.json
 # FEED_URL=https://raw.githubusercontent.com/Drako9159/asstream.roku.channel/refs/heads/main/data.json
 
