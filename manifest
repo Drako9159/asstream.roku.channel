@@ -60,9 +60,9 @@ busySpinnerColor=0x2d5891
 #focusBitmapBlendColor=0x2d5891
 
 #backgroundImageURI=pkg:/images/background.webp
-backgroundImageURI=pkg:/images/optimized/background_03.jpg
+backgroundImageURI=pkg:/images/webp/background_03.webp
 backgroundColor=0x2d5891
 
 # Apply Security Code
 security=true
-security_code=1234
+security_code=1111
