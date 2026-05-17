@@ -10,5 +10,6 @@
     <script type="text/brightscript" uri="../source/rsg_utils.brs" />
     <script type="text/brightscript" uri="DeepLinkingLogic.brs" />
 
+    <SecurityView id="securityView" visible="false" />
     
 </component>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<component name="NumberPadItem" extends="Group">
+    <interface>
+        <field id="itemContent" type="node" onChange="onContentChange" />
+    </interface>
+    <script type="text/brightscript" uri="pkg:/components/SGDEX/Views/SecureBanner/NumberPadItem.brs" />
+    <children>
+        <Rectangle id="bg" width="120" height="120" color="0x333333FF" />
+        <Label id="number" width="120" height="120" horizAlign="center" vertAlign="center" font="font:LargeBoldSystemFont" color="0xFFFFFFFF" />
+    </children>
+</component>

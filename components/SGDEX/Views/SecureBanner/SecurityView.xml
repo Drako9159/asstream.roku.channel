@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<component name="SecurityView" extends="Group">
+    <interface>
+        <field id="unlocked" type="boolean" value="false" alwaysNotify="true" />
+    </interface>
+    <script type="text/brightscript" uri="pkg:/components/SGDEX/Views/SecureBanner/SecurityView.brs" />
+    <children>
+        <!-- <Rectangle width="1920" height="1080" color="0x111111FF" /> -->
+        <FadingBackground
+            id="backgroundImageSecurityView"
+            width="1280"
+            height="720"
+            animationDuration ="0.5"
+            uri="pkg:/images/webp/background_hd.webp"
+        />
+        
+        <LayoutGroup
+            translation="[640, 360]"
+            horizAlignment="center"
+            vertAlignment="center"
+            itemSpacings="[10]"
+            >
+            
+            
+            <Label id="instructionLabel" text="Ingrese el código de seguridad:" translation="[0, 200]" width="1920" horizAlign="center" font="font:LargeBoldSystemFont" color="0xFFFFFFFF" />
+            <Label id="pinLabel" text="" translation="[0, 300]" width="1920" horizAlign="center" font="font:LargeBoldSystemFont" color="0x00FF00FF" />
+            <MarkupGrid id="numberGrid" 
+                   translation="[420, 320]"
+                   itemComponentName="NumberPadItem" 
+                   itemSize="[110, 110]" 
+                   itemSpacing="[20, 20]" 
+                   numColumns="4" 
+                   drawFocusFeedback="true" />
+            <Label id="getCodeLabel" text="O escanee el código QR" translation="[0, 200]" width="1920" horizAlign="center" font="font:LargeBoldSystemFont" color="0xFFFFFFFF" />
+            
+            <StyledPoster
+                id="qrCodePoster"
+                maxWidth="357"
+                maxHeight="201"
+                uri="pkg:/images/optimized/qrme.png"
+            />
+        </LayoutGroup>
+    </children>
+</component>    

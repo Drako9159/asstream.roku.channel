@@ -2,7 +2,7 @@
 
 sub Show(args as Object)
 	AppInfo = CreateObject("roAppInfo")
-    
+
     ' update theme elements
 	m.top.theme = {
         global: {
@@ -19,20 +19,27 @@ sub Show(args as Object)
             backgroundColor: AppInfo.GetValue("backgroundColor")
         }
     }
-    
-    ShowLoginDialog()
-    
-    ShowGridComponent()
 
-    print "----------> GridView Loaded"
+    print "----------> Theme Loaded"
+    
+    ' check for security 
 
+    isSecure = AppInfo.GetValue("security")
+    if isSecure = "true" then
+        CreateSecurityView()
+        
+    else
+        ShowLoginDialog()
+        ShowGridComponent()
+        print "----------> GridView Loaded"
+    end if
+    
     ' test deep linking
     ' curl -d "" "http://192.168.0.247:8060/launch/dev?contentID=67a3c7b6b4e8c78e753a1c9d&mediaType=movie"
     ' rm -rf as_stream.zip && zip -r as_stream.zip . -x "/.git/*" "/.git/**"
     ' define optionals
     ' telnet roku-ip-address 8085
     ' telnet 192.168.0.247 8085
-
 
     ' Check for deep linking
     ' action(m)
@@ -43,6 +50,22 @@ sub Show(args as Object)
 
     ' Signal AppLaunchComplete beacon
     m.top.signalBeacon("AppLaunchComplete")
+end sub
+
+
+sub CreateSecurityView()
+    m.securityView = CreateObject("roSGNode", "SecurityView")
+    m.securityView.observeField("unlocked", "onUnlocked")
+    m.top.ComponentController.CallFunc("show", {
+        view: m.securityView
+    })
+end sub
+
+sub onUnlocked()
+    m.securityView.visible = false
+    ShowLoginDialog()
+    ShowGridComponent()
+    print "----------> GridView Loaded"
 end sub
 
 function ShowGridComponent()

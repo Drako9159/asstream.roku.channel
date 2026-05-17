@@ -17,9 +17,9 @@ mm_icon_focus_fhd=pkg:/images/icon_focus_hd.webp
 #bs_libs_required=roku_ads_lib
 
 # Splash Screen
-splash_screen_fhd=pkg:/images/splash_hd.webp
-splash_screen_hd=pkg:/images/splash_hd.webp
-splash_screen_sd=pkg:/images/splash_hd.webp
+splash_screen_fhd=pkg:/images/webp/splash_hd.webp
+splash_screen_hd=pkg:/images/webp/splash_hd.webp
+splash_screen_sd=pkg:/images/webp/splash_hd.webp
 splash_color=#121212
 
 
@@ -32,12 +32,12 @@ splash_rsg_optimization=1
 
 supports_input_launch=1
 
-' Update content feed URL
+# Update content feed URL
 
-#FEED_URL=https://ovp-feeds2-886239521314.s3.amazonaws.com/roku_tips_and_tricks_clip/ovpfeed.json
-#FEED_URL=https://content.jwplatform.com/feeds/6V5vHuPm.rss
+# FEED_URL=https://ovp-feeds2-886239521314.s3.amazonaws.com/roku_tips_and_tricks_clip/ovpfeed.json
+# FEED_URL=https://content.jwplatform.com/feeds/6V5vHuPm.rss
 
-' Update theme elements              
+# Update theme elements              
 # FEED_URL=https://asstream-api-channel.fly.dev/api/channel
 FEED_URL=https://asstream-v2.fly.dev/api/feed?user_id=f73135e8-6d43-40a6-9063-b6dd7810f00e
 
@@ -60,5 +60,9 @@ busySpinnerColor=0x2d5891
 #focusBitmapBlendColor=0x2d5891
 
 #backgroundImageURI=pkg:/images/background.webp
-backgroundImageURI=pkg:/images/tematic/background_otono.webp
+backgroundImageURI=pkg:/images/optimized/background_03.jpg
 backgroundColor=0x2d5891
+
+# Apply Security Code
+security=true
+security_code=1234
