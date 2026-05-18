@@ -139,8 +139,7 @@ function GetRandomBackgroundImage() as String
         "pkg:/images/random/random_04.jpg",
         "pkg:/images/random/random_05.jpg",
         "pkg:/images/random/random_06.jpg",
-        "pkg:/images/random/random_07.jpg",
-        "pkg:/images/random/random_08.jpg"
+        "pkg:/images/random/random_07.jpg"
     ]
 
     ' Rnd(N) devuelve un entero entre 1 y N

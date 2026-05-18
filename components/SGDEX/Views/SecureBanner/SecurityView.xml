@@ -24,12 +24,15 @@
             
             <Label id="instructionLabel" text="Ingrese el código de seguridad:" translation="[0, 200]" width="1920" horizAlign="center" font="font:LargeBoldSystemFont" color="0xFFFFFFFF" />
             <Label id="pinLabel" text="" translation="[0, 300]" width="1920" horizAlign="center" font="font:LargeBoldSystemFont" color="0x00FF00FF" />
+            <!-- Change color in MarkupGrid -->
             <MarkupGrid id="numberGrid" 
                    translation="[420, 320]"
                    itemComponentName="NumberPadItem" 
-                   itemSize="[110, 110]" 
-                   itemSpacing="[20, 20]" 
+                   itemSize="[120, 120]" 
+                   itemSpacing="[10, 10]" 
                    numColumns="4" 
+                   color="0x000000FF"
+                   
                    drawFocusFeedback="true" />
             <Label id="getCodeLabel" text="O escanee el código QR" translation="[0, 200]" width="1920" horizAlign="center" font="font:LargeBoldSystemFont" color="0xFFFFFFFF" />
             
@@ -37,7 +40,7 @@
                 id="qrCodePoster"
                 maxWidth="357"
                 maxHeight="201"
-                uri="pkg:/images/utils/qrme.png"
+                uri="pkg:/images/qrme.png"
             />
         </LayoutGroup>
     </children>
