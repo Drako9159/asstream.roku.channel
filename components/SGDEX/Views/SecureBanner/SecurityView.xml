@@ -37,7 +37,7 @@
                 id="qrCodePoster"
                 maxWidth="357"
                 maxHeight="201"
-                uri="pkg:/images/optimized/qrme.png"
+                uri="pkg:/images/utils/qrme.png"
             />
         </LayoutGroup>
     </children>

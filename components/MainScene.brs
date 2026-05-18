@@ -15,7 +15,7 @@ sub Show(args as Object)
             focusRingColor: AppInfo.GetValue("focusRingColor")
             progressBarColor: AppInfo.GetValue("progressBarColor")
 			busySpinnerColor: AppInfo.GetValue("busySpinnerColor")                  
-           	backgroundImageURI: AppInfo.GetValue("backgroundImageURI") 
+           	backgroundImageURI: GetRandomBackgroundImage() 
             backgroundColor: AppInfo.GetValue("backgroundColor")
         }
     }
@@ -131,4 +131,19 @@ sub ShowLoginDialog()
     m.top.signalBeacon("AppDialogComplete")
 end sub
 
+function GetRandomBackgroundImage() as String
+    images = [
+        "pkg:/images/random/random_01.jpg",
+        "pkg:/images/random/random_02.jpg",
+        "pkg:/images/random/random_03.jpg",
+        "pkg:/images/random/random_04.jpg",
+        "pkg:/images/random/random_05.jpg",
+        "pkg:/images/random/random_06.jpg",
+        "pkg:/images/random/random_07.jpg",
+        "pkg:/images/random/random_08.jpg"
+    ]
 
+    ' Rnd(N) devuelve un entero entre 1 y N
+    randomIndex = Rnd(images.Count()) - 1
+    return images[randomIndex]
+end function
